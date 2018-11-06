@@ -14,4 +14,4 @@ def get_prefix(litery):
 
 def generator_maili():
     while True:
-        yield (get_prefix(litery, 7) + '@' + get_domena(domeny))
+        return (get_prefix(litery) + '@' + get_domena(domeny))
