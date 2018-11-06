@@ -49,9 +49,11 @@ def generator_dat():
 def main():
     baza = Baza()
     now = time.time()
-    baza.generate(now - 2*YEAR, now - YEAR)
+    # Wygeneruj po 100 wszystkiego
+    baza.generate(100, now - 2*YEAR, now - YEAR)
     baza.dump("t1")
-    baza.generate(now - YEAR, now)
+    # Wygeneruj po 100 wszystkiego
+    baza.generate(100, now - YEAR, now)
     baza.dump("t2")
 
     #def generuj_adresy():

@@ -94,7 +94,7 @@ class Baza(object):
         self._id += 1
         return self._id
 
-    def generate(self, start_date, end_date):
+    def generate(self, ilosc_obiektow, start_date, end_date):
         def generator_adresu():
             while True:
                 yield random.choice(self.adresy)
@@ -130,7 +130,7 @@ class Baza(object):
         ):
             self.adresy.append(Adres(self.next_id(), kraj, miasto, ulica, nr))
             i += 1
-            if i > 100:
+            if i > ilosc_obiektow:
                 break
 
         # Komisariat (id nazwa adres)
@@ -141,7 +141,7 @@ class Baza(object):
         ):
             self.komisariaty.append(Komisariat(self.next_id(), nazwa, adresy))
             i += 1
-            if i > 100:
+            if i > ilosc_obiektow:
                 break
 
         # id stopien dane_osoby miejsce_przydzialu
@@ -154,7 +154,7 @@ class Baza(object):
             self.funkcjonariusze.append(Funkcjonariusz(self.next_id(),
                                                    stopien, dane_osoby, miejsce_przydzialu))
             i += 1
-            if i > 100:
+            if i > ilosc_obiektow:
                 break
         # id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
         i = 0
@@ -170,7 +170,7 @@ class Baza(object):
                                                        powod, czas, osoba_legitymowana,
                                                        miejsce, _funkcjonariusz))
             i += 1
-            if i > 100:
+            if i > ilosc_obiektow:
                 break
 
             # id czas czas_interwenji powod dane_osadzonego funkcjonariusz
@@ -186,5 +186,5 @@ class Baza(object):
                                                            powod, czas, osoba_legitymowana,
                                                            miejsce, _funkcjonariusz))
             i += 1
-            if i > 100:
+            if i > ilosc_obiektow:
                 break
