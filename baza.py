@@ -140,18 +140,18 @@ class Baza(object):
 
         # Komisariat (id nazwa adres)
         i = 0
-        for id, nazwa, adres in zip(
+        for id, nazwa, adresy in zip(
             komisariaty.generator_nazwy(),
             generator_adresu()
         ):
-            self.komisariaty.append(Komisariat(self.next_id(),nazwa, adres))
+            self.komisariaty.append(Komisariat(self.next_id(),nazwa, adresy))
             i += 1
             if i > 100:
                 break
 
         # id stopien dane_osoby miejsce_przydzialu
         i = 0
-        for id, stopien, dane_osoby, miejsce_przydziału in zip(
+        for id, stopien, dane_osoby, miejsce_przydzialu in zip(
             funkcjonariusz.generator_stopni(),
             generator_osob(),
             generator_komisariatow()
