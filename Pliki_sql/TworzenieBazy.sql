@@ -70,7 +70,7 @@ CREATE TABLE Przebywanie_w_areszcie
 (
 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,
 	Czas INTEGER NOT NULL,
-	Czas_interwencji INTEGER NOT NULL,
+	Czas_interwencji DATETIME NOT NULL,
 	Powod VARCHAR(191) NOT NULL,
 	
 	Dane_osadzonego INTEGER NOT NULL,
