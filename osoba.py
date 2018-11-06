@@ -1,6 +1,6 @@
 import random
 import pesel
-
+import mails
 
 def generator_telefonu():
     while True:
@@ -20,5 +20,11 @@ def generator_imion():
         random_line = random.choice(open("imiona.txt").read().split('\n'))
         yield(random_line)
 
-generator_nazwisk = generator_imion
-generator_emaili = generator_imion
+def generator_emaili():
+    while True:
+        yield(mails.generator_maili())
+
+def generator_nazwisk():
+    while True:
+        random_line = random.choice(open("imiona.txt").read().split('\n'))
+        yield(random_line)
