@@ -6,6 +6,8 @@ import random
 import osoba
 import komisariaty
 import funkcjonariusz
+import aresztowania
+import mandaty
 
 class Baza(object):
     def __init__(self):
@@ -161,13 +163,34 @@ class Baza(object):
                 break
         # id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
         i = 0
-        for id, kwota, powod, czas, osoba_legitymowana, miejsce, funkcjonariusz zip(
-            funkcjonariusz.generator_stopni(),
+        for id, kwota, powod, czas, osoba_legitymowana, miejsce, funkcjonariusz in zip(
+            mandaty.generator_kwot(),
+            mandaty.generator_powodow(),
+            mandaty.generator_dat(),
             generator_osob(),
-            generator_komisariatow()
+            generator_adresu(),
+            generator_funkcjonariuszy()
         ):
-            self.komisariaty.append(Funkcjonariusz(self.next_id(),
-                                                   stopien, dane_osoby, miejsce_przydzialu))
+            self.komisariaty.append(WystawienieMandatu(self.next_id(), kwota,
+                                                       powod, czas, osoba_legitymowana,
+                                                       miejsce, funkcjonariusz))
             i += 1
             if i > 100:
                 break
+
+            # id czas czas_interwenji powod dane_osadzonego funkcjonariusz
+            i = 0
+            for id, czas, czas_interwencji, powod, dane_osadzonego, funkcjonariusz in zip(
+                    aresztowania.generator_dni(),
+                    mandaty.generator_powodow(),
+                    mandaty.generator_daty(),
+                    generator_osob(),
+                    generator_adresu(),
+                    generator_funkcjonariuszy()
+            ):
+                self.komisariaty.append(PrzebywanieWAreszcie(self.next_id(), kwota,
+                                                           powod, czas, osoba_legitymowana,
+                                                           miejsce, funkcjonariusz))
+                i += 1
+                if i > 100:
+                    break
