@@ -1,5 +1,7 @@
 import random
 
+header = 'Numer porządkowy samochodu funkcjonariuszy|Długość trasy patrolu|Początek trasy|Koniec trasy|Czas patrolu|Ilość problemów podczas patrolu'
+
 def get_car_number():
     yield random.randint(10, 99)
 
