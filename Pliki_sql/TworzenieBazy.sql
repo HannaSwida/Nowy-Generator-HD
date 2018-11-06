@@ -39,7 +39,7 @@ GO
 CREATE TABLE Funkcjonariusz
 (
 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,
-	Stopień VARCHAR(191) NOT NULL,
+	Stopien VARCHAR(191) NOT NULL,
 	
 	Dane_osoby INTEGER NOT NULL,
 	Miejsce_przydzialu INTEGER NOT NULL,
