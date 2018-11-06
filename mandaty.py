@@ -17,10 +17,9 @@ def generator_kwot():
         yield(random.randint(100, 500))
 
 
-def generator_dat():
+def generator_dat(start_date, end_date):
     while True:
-        now = int(time.time())
-        data = random.randint(now - 2*YEAR, now-YEAR)
-        yield (date(data))
+        data = random.randint(start_date, end_date)
+        yield date(data)
 
 

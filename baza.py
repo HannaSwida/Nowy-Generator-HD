@@ -161,7 +161,7 @@ class Baza(object):
         for kwota, powod, czas, osoba_legitymowana, miejsce, _funkcjonariusz in zip(
             mandaty.generator_kwot(),
             mandaty.generator_powodow(),
-            mandaty.generator_dat(),
+            mandaty.generator_dat(start_date, end_date),
             generator_osob(),
             generator_adresu(),
             generator_funkcjonariuszy()
@@ -177,7 +177,7 @@ class Baza(object):
         i = 0
         for czas, czas_interwencji, powod, dane_osadzonego, _funkcjonariusz in zip(
             aresztowania.generator_dni(),
-            aresztowania.generator_dat(),
+            aresztowania.generator_dat(start_date, end_date),
             aresztowania.generator_powodow(),
             generator_osob(),
             generator_funkcjonariuszy()

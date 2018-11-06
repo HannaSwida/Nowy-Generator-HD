@@ -8,11 +8,10 @@ def date(d):
     return time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(d))
 
 
-def generator_dat():
+def generator_dat(start_date, end_date):
     while True:
-        now = int(time.time())
-        start = random.randint(now - 2 * YEAR, now - YEAR)
-        yield (date(start))
+        start = random.randint(start_date, end_date)
+        yield date(start)
 
 
 def generator_dni():
