@@ -5,6 +5,7 @@ import adres
 import random
 import osoba
 
+
 class Baza(object):
     def __init__(self):
         self.adresy = []
@@ -15,8 +16,10 @@ class Baza(object):
         self.aresztowania = []
 
         self._id = 0
+
     def dump(self, target_directory):
         os.mkdir(target_directory)
+
         def export(table, lst, columns):
             with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='') as f:
                 writer = csv.writer(f, delimiter='|')
@@ -44,13 +47,13 @@ class Baza(object):
             lambda x: x.telefon,
             lambda x: x.email
         ])
-        # id imie nazwisko pesel telefon email
+        # id  nazwa adres
         export("Komisariat", self.osoby, [
             lambda x: x.id,
             lambda x: x.nazwa,
             lambda x: x.adres
         ])
-        
+
     def next_id(self):
         self._id += 1
         return self._id
