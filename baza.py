@@ -18,8 +18,8 @@ class Baza(object):
     def dump(self, target_directory):
         os.mkdir(target_directory)
         def export(table, lst, columns):
-            with open(os.path.join(target_directory, "{}.csv".format(table)), "w") as f:
-                writer = csv.writer(f)
+            with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='') as f:
+                writer = csv.writer(f, delimiter='|')
                 for i in lst:
                     row = []
                     for c in columns:
