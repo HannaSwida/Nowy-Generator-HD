@@ -4,7 +4,7 @@ import csv
 import adres
 import random
 import osoba
-
+import komisariaty
 
 class Baza(object):
     def __init__(self):
@@ -115,11 +115,12 @@ class Baza(object):
 
         # Komisariat (id nazwa adres)
         i = 0
-        for imie, nazwisko, pesel, telefon, email in zip(
-            osoba.generator_nazw(),
+        for id, nazwa, adres in zip(
+            komisariaty.generator_nazw(),
+            generator_adresu()
 
         ):
-            self.Komisariat.append(Komisariat(self.next_id(), on, email))
+            self.komisariaty.append(Komisariat(self.next_id(), on, email))
             i += 1
             if i > 100:
                 break
