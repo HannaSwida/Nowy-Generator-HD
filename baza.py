@@ -5,6 +5,7 @@ import adres
 import random
 import osoba
 import komisariaty
+import funkcjonariusz
 
 class Baza(object):
     def __init__(self):
@@ -14,6 +15,7 @@ class Baza(object):
         self.funkcjonariusze = []
         self.wystawione_mandaty = []
         self.aresztowania = []
+        self.użyte_osoby = set()
 
         self._id = 0
 
@@ -46,6 +48,7 @@ class Baza(object):
             lambda x: x.pesel,
             lambda x: x.telefon,
             lambda x: x.email
+
         ])
         # id  nazwa adres
         export("Komisariat", self.komisariaty, [
@@ -92,6 +95,13 @@ class Baza(object):
             return random.choice(self.adresy)
         # TODO: Tu generujesz wszystko
 
+        def generator_osob():
+            return random.choice(self.osoby)
+        # TODO: Tu generujesz wszystko
+
+        def generator_komisariatow():
+            return random.choice(self.komisariat)
+
         # Adresy
         i = 0
         for kraj, miasto, ulica, nr in zip(adres.generator_panstw(), adres.generator_miast(),
@@ -108,6 +118,7 @@ class Baza(object):
             osoba.generator_peseli(),
             osoba.generator_telefonu(),
             osoba.generator_emaili()
+
         ):
             self.osoby.append(Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email))
             i += 1
@@ -119,21 +130,21 @@ class Baza(object):
         for id, nazwa, adres in zip(
             komisariaty.generator_nazwy(),
             generator_adresu()
-
         ):
             self.komisariaty.append(Komisariat(self.next_id(),nazwa, adres))
             i += 1
             if i > 100:
                 break
 
-        # Funkcjonariusz id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
+        # id stopien dane_osoby miejsce_przydzialu
         i = 0
-        for id, nazwa, adres in zip(
-            funkcjonariusz.generator_nazwy(),
-            generator_adresu()
-
+        for id, stopien, dane_osoby, miejsce_przydziału in zip(
+            funkcjonariusz.generator_stopni(),
+            generator_osob(),
+            generator_komisariatow()
         ):
-            self.komisariaty.append(Funkcjonariusz(self.next_id(), on, email))
+            self.komisariaty.append(Funkcjonariusz(self.next_id(),
+                                                   stopien, dane_osoby, miejsce_przydzialu))
             i += 1
             if i > 100:
                 break
