@@ -13,3 +13,10 @@ def generator_peseli():
             yield (0)
         else:
             yield(pesel.pesel())
+
+
+def generator_imion():
+    for i in range(5):
+        random_line = random.choice(open("imiona.txt").read().split('\n'))
+        yield(random_line)
+

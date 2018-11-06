@@ -2,12 +2,19 @@
 import sys, random, time, csv
 import pesel
 import osoba
+import adres
 YEAR = 365 * 24 * 60 * 60
 
 
 def generate_sql(f, table_name, data_type, source):
     for item in source():
-        f.write("INSERT INTO {} ({}) VALUES (\'{}\');\n".format(table_name, data_type, ", ".join(map(str, item))))
+        def escape(x):
+            if type(x) == str:
+                return "\"{}\"".format(x)
+            if type(x) == int:
+                return str(x)
+        item = map(escape, item)
+        f.write("INSERT INTO {} ({}) VALUES ({});\n".format(table_name, data_type, ", ".join(item)))
 
 
 def generate_sql_osoba(f, table_name, source):
@@ -36,17 +43,29 @@ def generator_dat():
         yield (date(start), date(end))
 
 
-def generator_imion():
-    for i in range(5):
-        random_line = random.choice(open("imiona.txt").read().split('\n'))
-        yield(random_line)
-
-
 def main():
-    generate_sql_osoba(sys.stdout,  "daty", generator_dat)
+    def generuj_adresy():
+        # 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,
+        # 	Kraj VARCHAR(191) NOT NULL,
+        # 	Miasto VARCHAR(191) NOT NULL,
+        # 	Ulica VARCHAR(191) NOT NULL,
+        # 	Numer INTEGER NOT NULL
+
+        for i, data in enumerate(zip(adres.generator_panstw(), adres.generator_miast(),
+                                     adres.generator_ulic(), adres.numer_budynku())):
+            yield [i] + list(data)
+            if i > 100:
+                return
+
+
+    generate_sql(sys.stdout, "Adresy",
+                 "Id, Kraj, Miasto, Ulica, Numer",
+                 generuj_adresy)
+
+    #generate_sql_osoba(sys.stdout,  "daty", generator_dat)
     # with f as open("moj.sql"):
     #   generate(f, "daty", generator_dat)
-    generate_csv(sys.stdout, generator_dat)
+    #generate_csv(sys.stdout, generator_dat)
 
 
 if __name__ == "__main__":
