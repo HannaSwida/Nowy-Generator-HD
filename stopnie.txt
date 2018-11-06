@@ -1,17 +1,2 @@
-Generalny Inspektor
-Nadinspektor
-Nadkomisarz
-M≥. Inspektor
-Podinspektor
-Inspektor
-Komisarz
-Podkomisarz
-Aspirant Sztabowy
-Starszy Aspirant
-Aspirant
-M≥odszy Aspirant
-Sierøant Sztabowy
-Starszy Sierøant
-Sierøant
-Starszy Posterunkowy
-Posterunkowy
+Genera≈Ç
+Rower

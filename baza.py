@@ -17,12 +17,14 @@ class Baza(object):
         self.funkcjonariusze = []
         self.wystawione_mandaty = []
         self.aresztowania = []
-        self.uzyte_osoby = set()
 
         self._id = 0
 
     def dump(self, target_directory):
-        os.mkdir(target_directory)
+        try:
+            os.mkdir(target_directory)
+        except:
+            pass
 
         def export(table, lst, columns):
             with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='') as f:
@@ -56,15 +58,15 @@ class Baza(object):
         export("Komisariat", self.komisariaty, [
             lambda x: x.id,
             lambda x: x.nazwa,
-            lambda x: x.adres
+            lambda x: x.adres.id
         ])
 
         #id stopien dane_osoby miejsce_przydzialu
         export("Funkcjonariusz", self.funkcjonariusze, [
             lambda x: x.id,
             lambda x: x.stopien,
-            lambda x: x.dane_osoby,
-            lambda x: x.miejsce_przydzialu
+            lambda x: x.dane_osoby.id,
+            lambda x: x.miejsce_przydzialu.id
         ])
 
         #id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
@@ -73,19 +75,19 @@ class Baza(object):
             lambda x: x.kwota,
             lambda x: x.powod,
             lambda x: x.czas,
-            lambda x: x.osoba_legitymowana,
-            lambda x: x.funkcjonariusz
+            lambda x: x.osoba_legitymowana.id,
+            lambda x: x.funkcjonariusz.id
         ])
 
         #id czas czas_interwenji powod dane_osadzonego funkcjonariusz komisariat
-        export("PrzebywanieWAreszcie", self.przebywanie_w_areszcie, [
+        export("PrzebywanieWAreszcie", self.aresztowania, [
             lambda x: x.id,
             lambda x: x.czas,
             lambda x: x.czas_interwencji,
             lambda x: x.powod,
-            lambda x: x.dane_osadzonego,
-            lambda x: x.funkcjonariusz,
-            lambda x: x.komisariat
+            lambda x: x.dane_osadzonego.id,
+            lambda x: x.funkcjonariusz.id,
+            lambda x: x.komisariat.id
         ])
 
     def next_id(self):
@@ -96,22 +98,27 @@ class Baza(object):
         def generator_adresu():
             while True:
                 yield random.choice(self.adresy)
-        # TODO: Tu generujesz wszystko
 
         def generator_osob():
-            while True:
-                o = random.choice(self.osoby)
-                if not o in self.uzyte_osoby:
-                    self.uzyte_osoby.add(o)
-                    yield o
-        # TODO: Tu generujesz wszystko
+            for imie, nazwisko, pesel, telefon, email in zip(
+                    osoba.generator_imion(),
+                    osoba.generator_nazwisk(),
+                    osoba.generator_peseli(),
+                    osoba.generator_telefonu(),
+                    osoba.generator_emaili()
+
+            ):
+                o = Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email)
+                self.osoby.append(o)
+                yield o
 
         def generator_funkcjonariuszy():
             while True:
                 yield random.choice(self.funkcjonariusze)
 
         def generator_komisariatow():
-            return random.choice(self.komisariaty)
+            while True:
+                yield random.choice(self.komisariaty)
 
         # Adresy
         i = 0
@@ -124,20 +131,6 @@ class Baza(object):
             self.adresy.append(Adres(self.next_id(), kraj, miasto, ulica, nr))
             i += 1
             if i > 100:
-                break
-        # Osoby (id imie nazwisko pesel telefon email)
-        i = 0
-        for imie, nazwisko, pesel, telefon, email in zip(
-            osoba.generator_imion(),
-            osoba.generator_nazwisk(),
-            osoba.generator_peseli(),
-            osoba.generator_telefonu(),
-            osoba.generator_emaili()
-
-        ):
-            self.osoby.append(Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email))
-            i += 1
-            if i > 200:
                 break
 
         # Komisariat (id nazwa adres)

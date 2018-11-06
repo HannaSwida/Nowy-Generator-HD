@@ -12,4 +12,4 @@ WystawienieMandatu = namedtuple("WystawienieMandatu",
     "id kwota powod czas osoba_legitymowana miejsce funkcjonariusz")
 
 PrzebywanieWAreszcie = namedtuple("PrzebywanieWAreszcie",
-    "id czas czas_interwenji powod dane_osadzonego funkcjonariusz komisariat")
+    "id czas czas_interwencji powod dane_osadzonego funkcjonariusz komisariat")
