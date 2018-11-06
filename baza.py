@@ -44,9 +44,17 @@ class Baza(object):
             lambda x: x.telefon,
             lambda x: x.email
         ])
+        # id imie nazwisko pesel telefon email
+        export("Komisariat", self.osoby, [
+            lambda x: x.id,
+            lambda x: x.nazwa,
+            lambda x: x.adres
+        ])
+        
     def next_id(self):
         self._id += 1
         return self._id
+
     def generate(self, start_date, end_date):
         def generator_adresu():
             return random.choice(self.adresy)
@@ -70,6 +78,17 @@ class Baza(object):
             osoba.generator_emaili()
         ):
             self.osoby.append(Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email))
+            i += 1
+            if i > 100:
+                break
+
+        # Komisariat (id nazwa adres)
+        i = 0
+        for imie, nazwisko, pesel, telefon, email in zip(
+            osoba.generator_nazw(),
+
+        ):
+            self.Komisariat.append(Komisariat(self.next_id(), on, email))
             i += 1
             if i > 100:
                 break
