@@ -48,8 +48,7 @@ def generator_dat():
 
 def main():
     baza = Baza()
-    now = time.time()
-    # Wygeneruj po 100 wszystkiego
+    now = int(time.time())    # Wygeneruj po 100 wszystkiego
     baza.generate(100, now - 2*YEAR, now - YEAR)
     baza.dump("t1")
     # Wygeneruj po 100 wszystkiego
