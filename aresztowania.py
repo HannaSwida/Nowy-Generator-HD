@@ -8,7 +8,7 @@ def date(d):
     return time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(d))
 
 
-def generator_daty():
+def generator_dat():
     while True:
         now = int(time.time())
         start = random.randint(now - 2 * YEAR, now - YEAR)

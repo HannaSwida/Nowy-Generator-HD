@@ -137,7 +137,7 @@ class Baza(object):
         ):
             self.osoby.append(Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email))
             i += 1
-            if i > 100:
+            if i > 200:
                 break
 
         # Komisariat (id nazwa adres)
@@ -173,7 +173,7 @@ class Baza(object):
             generator_adresu(),
             generator_funkcjonariuszy()
         ):
-            self.komisariaty.append(WystawienieMandatu(self.next_id(), kwota,
+            self.wystawione_mandaty.append(WystawienieMandatu(self.next_id(), kwota,
                                                        powod, czas, osoba_legitymowana,
                                                        miejsce, _funkcjonariusz))
             i += 1
@@ -184,13 +184,12 @@ class Baza(object):
         i = 0
         for czas, czas_interwencji, powod, dane_osadzonego, _funkcjonariusz in zip(
             aresztowania.generator_dni(),
-            mandaty.generator_powodow(),
-            mandaty.generator_dat(),
+            aresztowania.generator_dat(),
+            aresztowania.generator_powodow(),
             generator_osob(),
-            generator_adresu(),
             generator_funkcjonariuszy()
             ):
-            self.komisariaty.append(PrzebywanieWAreszcie(self.next_id(), kwota,
+            self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(), kwota,
                                                            powod, czas, osoba_legitymowana,
                                                            miejsce, _funkcjonariusz))
             i += 1
