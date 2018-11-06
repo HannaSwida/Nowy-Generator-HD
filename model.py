@@ -2,7 +2,7 @@ from collections import namedtuple
 
 Osoba = namedtuple("Osoba", "id imie nazwisko pesel telefon email")
 
-Adres = namedtuple("Adres", "id kraj miasto ulica number")
+Adres = namedtuple("Adres", "id kraj miasto ulica numer")
 
 Komisariat = namedtuple("Komisariat", "id nazwa adres")
 

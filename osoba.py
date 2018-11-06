@@ -20,3 +20,5 @@ def generator_imion():
         random_line = random.choice(open("imiona.txt").read().split('\n'))
         yield(random_line)
 
+generator_nazwisk = generator_imion
+generator_emaili = generator_imion

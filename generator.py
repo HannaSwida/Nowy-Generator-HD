@@ -3,6 +3,7 @@ import sys, random, time, csv
 import pesel
 import osoba
 import adres
+from baza import Baza
 
 YEAR = 365 * 24 * 60 * 60
 
@@ -46,22 +47,29 @@ def generator_dat():
 
 
 def main():
-    def generuj_adresy():
-        # 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,
-        # 	Kraj VARCHAR(191) NOT NULL,
-        # 	Miasto VARCHAR(191) NOT NULL,
-        # 	Ulica VARCHAR(191) NOT NULL,
-        # 	Numer INTEGER NOT NULL
+    baza = Baza()
+    now = time.time()
+    baza.generate(now - 2*YEAR, now - YEAR)
+    baza.dump("t1")
+    baza.generate(now - YEAR, now)
+    baza.dump("t2")
 
-        for i, data in enumerate(zip(adres.generator_panstw(), adres.generator_miast(),
-                                     adres.generator_ulic(), adres.numer_budynku())):
-            yield [i] + list(data)
-            if i > 100:
-                return
+    #def generuj_adresy():
+    #    # 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,
+    #    # 	Kraj VARCHAR(191) NOT NULL,
+    #    # 	Miasto VARCHAR(191) NOT NULL,
+    #    # 	Ulica VARCHAR(191) NOT NULL,
+    #    # 	Numer INTEGER NOT NULL
 
-    generate_sql(sys.stdout, "Adresy",
-                 "Id, Kraj, Miasto, Ulica, Numer",
-                 generuj_adresy)
+    #    for i, data in enumerate(zip(adres.generator_panstw(), adres.generator_miast(),
+    #                                 adres.generator_ulic(), adres.numer_budynku())):
+    #        yield [i] + list(data)
+    #        if i > 100:
+    #            return
+
+    #generate_sql(sys.stdout, "Adresy",
+    #             "Id, Kraj, Miasto, Ulica, Numer",
+    #             generuj_adresy)
 
     # generate_sql_osoba(sys.stdout,  "daty", generator_dat)
     # with f as open("moj.sql"):
