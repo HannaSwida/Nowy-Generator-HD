@@ -94,22 +94,24 @@ class Baza(object):
 
     def generate(self, start_date, end_date):
         def generator_adresu():
-            return random.choice(self.adresy)
+            while True:
+                yield random.choice(self.adresy)
         # TODO: Tu generujesz wszystko
 
         def generator_osob():
             while True:
                 o = random.choice(self.osoby)
                 if not o in self.uzyte_osoby:
-                     self.uzyte_osoby += o
-                     return o
+                    self.uzyte_osoby.add(o)
+                    yield o
         # TODO: Tu generujesz wszystko
 
         def generator_funkcjonariuszy():
-            return random.choice(self.funkcjonariusze)
+            while True:
+                yield random.choice(self.funkcjonariusze)
 
         def generator_komisariatow():
-            return random.choice(self.komisariat)
+            return random.choice(self.komisariaty)
 
         # Adresy
         i = 0
@@ -140,30 +142,30 @@ class Baza(object):
 
         # Komisariat (id nazwa adres)
         i = 0
-        for id, nazwa, adresy in zip(
+        for nazwa, adresy in zip(
             komisariaty.generator_nazwy(),
             generator_adresu()
         ):
-            self.komisariaty.append(Komisariat(self.next_id(),nazwa, adresy))
+            self.komisariaty.append(Komisariat(self.next_id(), nazwa, adresy))
             i += 1
             if i > 100:
                 break
 
         # id stopien dane_osoby miejsce_przydzialu
         i = 0
-        for id, stopien, dane_osoby, miejsce_przydzialu in zip(
+        for stopien, dane_osoby, miejsce_przydzialu in zip(
             funkcjonariusz.generator_stopni(),
             generator_osob(),
             generator_komisariatow()
         ):
-            self.komisariaty.append(Funkcjonariusz(self.next_id(),
+            self.funkcjonariusze.append(Funkcjonariusz(self.next_id(),
                                                    stopien, dane_osoby, miejsce_przydzialu))
             i += 1
             if i > 100:
                 break
         # id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
         i = 0
-        for id, kwota, powod, czas, osoba_legitymowana, miejsce, funkcjonariusz in zip(
+        for kwota, powod, czas, osoba_legitymowana, miejsce, _funkcjonariusz in zip(
             mandaty.generator_kwot(),
             mandaty.generator_powodow(),
             mandaty.generator_dat(),
@@ -173,24 +175,24 @@ class Baza(object):
         ):
             self.komisariaty.append(WystawienieMandatu(self.next_id(), kwota,
                                                        powod, czas, osoba_legitymowana,
-                                                       miejsce, funkcjonariusz))
+                                                       miejsce, _funkcjonariusz))
             i += 1
             if i > 100:
                 break
 
             # id czas czas_interwenji powod dane_osadzonego funkcjonariusz
-            i = 0
-            for id, czas, czas_interwencji, powod, dane_osadzonego, funkcjonariusz in zip(
-                    aresztowania.generator_dni(),
-                    mandaty.generator_powodow(),
-                    mandaty.generator_daty(),
-                    generator_osob(),
-                    generator_adresu(),
-                    generator_funkcjonariuszy()
+        i = 0
+        for czas, czas_interwencji, powod, dane_osadzonego, _funkcjonariusz in zip(
+            aresztowania.generator_dni(),
+            mandaty.generator_powodow(),
+            mandaty.generator_dat(),
+            generator_osob(),
+            generator_adresu(),
+            generator_funkcjonariuszy()
             ):
-                self.komisariaty.append(PrzebywanieWAreszcie(self.next_id(), kwota,
+            self.komisariaty.append(PrzebywanieWAreszcie(self.next_id(), kwota,
                                                            powod, czas, osoba_legitymowana,
-                                                           miejsce, funkcjonariusz))
-                i += 1
-                if i > 100:
-                    break
+                                                           miejsce, _funkcjonariusz))
+            i += 1
+            if i > 100:
+                break

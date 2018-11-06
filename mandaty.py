@@ -8,16 +8,19 @@ def date(d):
 
 
 def generator_powodow():
-    yield(random.choice(open("Powod_mandat.txt").read().split('\n')))
+    while True:
+        yield(random.choice(open("Powod_mandat.txt").read().split('\n')))
 
 
 def generator_kwot():
-    yield(random.randint(100, 500))
+    while True:
+        yield(random.randint(100, 500))
 
 
 def generator_dat():
-    now = int(time.time())
-    data = random.randint(now - 2*YEAR, now-YEAR)
-    yield (date(data))
+    while True:
+        now = int(time.time())
+        data = random.randint(now - 2*YEAR, now-YEAR)
+        yield (date(data))
 
 

@@ -25,8 +25,6 @@ def pesel():
     four_random = random.randint(10000, 99999)
     four_random = str(four_random)
 
-    # here comes the equation part, it calculates the last digit
-
     pierwsza = ('%02d' % (year % 100))
     druga = ('%02d' % month)
     trzecia = ('%02d' % day)
