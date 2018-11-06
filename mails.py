@@ -8,10 +8,10 @@ def get_domena(domena):
     return random.choice(domena)
 
 
-def get_prefix(litery, length):
-    return ''.join(random.choice(litery) for i in range(length))
+def get_prefix(litery):
+    return ''.join(random.choice(litery) for i in range(7))
 
 
-def generator_maili(length):
+def generator_maili():
     while True:
-        yield (get_prefix(litery, length) + '@' + get_domena(domeny))
+        return (get_prefix(litery) + '@' + get_domena(domeny))
