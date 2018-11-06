@@ -117,11 +117,23 @@ class Baza(object):
         # Komisariat (id nazwa adres)
         i = 0
         for id, nazwa, adres in zip(
-            komisariaty.generator_nazw(),
+            komisariaty.generator_nazwy(),
             generator_adresu()
 
         ):
-            self.komisariaty.append(Komisariat(self.next_id(), on, email))
+            self.komisariaty.append(Komisariat(self.next_id(),nazwa, adres))
+            i += 1
+            if i > 100:
+                break
+
+        # Funkcjonariusz id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
+        i = 0
+        for id, nazwa, adres in zip(
+            funkcjonariusz.generator_nazwy(),
+            generator_adresu()
+
+        ):
+            self.komisariaty.append(Funkcjonariusz(self.next_id(), on, email))
             i += 1
             if i > 100:
                 break
