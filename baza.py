@@ -54,11 +54,11 @@ class Baza(object):
             lambda x: x.adres
         ])
 
-        #id nazwa adres
+        #id nazwa przydzial
         export("Funkcjonariusz", self.funkcjonariusze, [
             lambda x: x.id,
             lambda x: x.nazwa,
-            lambda x: x.adres
+            lambda x: x.przydzial
         ])
 
         #id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
@@ -116,11 +116,23 @@ class Baza(object):
         # Komisariat (id nazwa adres)
         i = 0
         for id, nazwa, adres in zip(
-            komisariaty.generator_nazw(),
+            komisariaty.generator_nazwy(),
             generator_adresu()
 
         ):
-            self.komisariaty.append(Komisariat(self.next_id(), on, email))
+            self.komisariaty.append(Komisariat(self.next_id(),nazwa, adres))
+            i += 1
+            if i > 100:
+                break
+
+        # Funkcjonariusz id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
+        i = 0
+        for id, nazwa, adres in zip(
+            funkcjonariusz.generator_nazwy(),
+            generator_adresu()
+
+        ):
+            self.komisariaty.append(Funkcjonariusz(self.next_id(), on, email))
             i += 1
             if i > 100:
                 break
