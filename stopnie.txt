@@ -1,0 +1,17 @@
+Generalny Inspektor
+Nadinspektor
+Nadkomisarz
+M³. Inspektor
+Podinspektor
+Inspektor
+Komisarz
+Podkomisarz
+Aspirant Sztabowy
+Starszy Aspirant
+Aspirant
+M³odszy Aspirant
+Sier¿ant Sztabowy
+Starszy Sier¿ant
+Sier¿ant
+Starszy Posterunkowy
+Posterunkowy

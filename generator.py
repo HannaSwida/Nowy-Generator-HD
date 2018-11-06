@@ -3,6 +3,7 @@ import sys, random, time, csv
 import pesel
 import osoba
 import adres
+
 YEAR = 365 * 24 * 60 * 60
 
 
@@ -13,13 +14,14 @@ def generate_sql(f, table_name, data_type, source):
                 return "\"{}\"".format(x)
             if type(x) == int:
                 return str(x)
+
         item = map(escape, item)
         f.write("INSERT INTO {} ({}) VALUES ({});\n".format(table_name, data_type, ", ".join(item)))
 
 
 def generate_sql_osoba(f, table_name, source):
     for item in source():
-        f.write("INSERT INTO {} VALUES ({});\n".format(table_name, item)) #dzieli mi na litery nie slowa, fix
+        f.write("INSERT INTO {} VALUES ({});\n".format(table_name, item))  # dzieli mi na litery nie slowa, fix
 
 
 def generate_csv(f, source):
@@ -38,7 +40,7 @@ def date(d):
 def generator_dat():
     now = int(time.time())
     for i in range(5):
-        start = random.randint(now - 2*YEAR, now-YEAR)
+        start = random.randint(now - 2 * YEAR, now - YEAR)
         end = start + random.randint(0, YEAR)
         yield (date(start), date(end))
 
@@ -57,15 +59,14 @@ def main():
             if i > 100:
                 return
 
-
     generate_sql(sys.stdout, "Adresy",
                  "Id, Kraj, Miasto, Ulica, Numer",
                  generuj_adresy)
 
-    #generate_sql_osoba(sys.stdout,  "daty", generator_dat)
+    # generate_sql_osoba(sys.stdout,  "daty", generator_dat)
     # with f as open("moj.sql"):
     #   generate(f, "daty", generator_dat)
-    #generate_csv(sys.stdout, generator_dat)
+    # generate_csv(sys.stdout, generator_dat)
 
 
 if __name__ == "__main__":
