@@ -45,10 +45,38 @@ class Baza(object):
             lambda x: x.email
         ])
         # id imie nazwisko pesel telefon email
-        export("Komisariat", self.osoby, [
+        export("Komisariat", self.komisariaty, [
             lambda x: x.id,
             lambda x: x.nazwa,
             lambda x: x.adres
+        ])
+
+        #id nazwa adres
+        export("Funkcjonariusz", self.funkcjonariusze, [
+            lambda x: x.id,
+            lambda x: x.nazwa,
+            lambda x: x.adres
+        ])
+
+        #id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
+        export("WystawienieMandatu", self.wystawione_mandaty, [
+            lambda x: x.id,
+            lambda x: x.kwota,
+            lambda x: x.powod,
+            lambda x: x.czas,
+            lambda x: x.osoba_legitymowana,
+            lambda x: x.funkcjonariusz
+        ])
+
+        #id czas czas_interwenji powod dane_osadzonego funkcjonariusz komisariat
+        export("PrzebywanieWAreszcie", self.przebywanie_w_areszcie, [
+            lambda x: x.id,
+            lambda x: x.czas,
+            lambda x: x.czas_interwencji,
+            lambda x: x.powod,
+            lambda x: x.dane_osadzonego,
+            lambda x: x.funkcjonariusz,
+            lambda x: x.komisariat
         ])
         
     def next_id(self):
