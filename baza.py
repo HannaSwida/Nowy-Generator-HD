@@ -48,17 +48,18 @@ class Baza(object):
             lambda x: x.email
         ])
         # id  nazwa adres
-        export("Komisariat", self.osoby, [
+        export("Komisariat", self.komisariaty, [
             lambda x: x.id,
             lambda x: x.nazwa,
             lambda x: x.adres
         ])
 
-        #id nazwa adres
+        #id stopien dane_osoby miejsce_przydzialu
         export("Funkcjonariusz", self.funkcjonariusze, [
             lambda x: x.id,
-            lambda x: x.nazwa,
-            lambda x: x.adres
+            lambda x: x.stopien,
+            lambda x: x.dane_osoby,
+            lambda x: x.miejsce_przydzialu
         ])
 
         #id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
