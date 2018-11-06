@@ -15,7 +15,7 @@ class Baza(object):
         self.funkcjonariusze = []
         self.wystawione_mandaty = []
         self.aresztowania = []
-        self.użyte_osoby = set()
+        self.uzyte_osoby = set()
 
         self._id = 0
 
@@ -96,16 +96,27 @@ class Baza(object):
         # TODO: Tu generujesz wszystko
 
         def generator_osob():
-            return random.choice(self.osoby)
+            while True:
+                o = random.choice(self.osoby)
+                if not o in self.uzyte_osoby:
+                     self.uzyte_osoby += o
+                     return o
         # TODO: Tu generujesz wszystko
+
+        def generator_funkcjonariuszy():
+            return random.choice(self.funkcjonariusze)
 
         def generator_komisariatow():
             return random.choice(self.komisariat)
 
         # Adresy
         i = 0
-        for kraj, miasto, ulica, nr in zip(adres.generator_panstw(), adres.generator_miast(),
-                                     adres.generator_ulic(), adres.numer_budynku()):
+        for kraj, miasto, ulica, nr in zip(
+                adres.generator_panstw(),
+                adres.generator_miast(),
+                adres.generator_ulic(),
+                adres.numer_budynku()
+        ):
             self.adresy.append(Adres(self.next_id(), kraj, miasto, ulica, nr))
             i += 1
             if i > 100:
@@ -139,6 +150,18 @@ class Baza(object):
         # id stopien dane_osoby miejsce_przydzialu
         i = 0
         for id, stopien, dane_osoby, miejsce_przydziału in zip(
+            funkcjonariusz.generator_stopni(),
+            generator_osob(),
+            generator_komisariatow()
+        ):
+            self.komisariaty.append(Funkcjonariusz(self.next_id(),
+                                                   stopien, dane_osoby, miejsce_przydzialu))
+            i += 1
+            if i > 100:
+                break
+        # id kwota powod czas osoba_legitymowana miejsce funkcjonariusz
+        i = 0
+        for id, kwota, powod, czas, osoba_legitymowana, miejsce, funkcjonariusz zip(
             funkcjonariusz.generator_stopni(),
             generator_osob(),
             generator_komisariatow()
