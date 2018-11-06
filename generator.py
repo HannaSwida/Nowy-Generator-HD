@@ -36,15 +36,6 @@ def generator_dat():
         yield (date(start), date(end))
 
 
-def generator_peseli():
-    for x in range(10):
-        if random.randint(1, 100) < 3:
-            yield (0)
-        else:
-            yield(pesel.pesel())
-
-
-
 def generator_imion():
     for i in range(5):
         random_line = random.choice(open("imiona.txt").read().split('\n'))
