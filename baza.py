@@ -8,6 +8,7 @@ import komisariaty
 import funkcjonariusz
 import aresztowania
 import mandaty
+import patrole
 
 class Baza(object):
     def __init__(self):
@@ -17,7 +18,7 @@ class Baza(object):
         self.funkcjonariusze = []
         self.wystawione_mandaty = []
         self.aresztowania = []
-
+        self.patrol = []
         self._id = 0
 
     def dump(self, target_directory):
@@ -28,6 +29,15 @@ class Baza(object):
 
         def export(table, lst, columns):
             with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='') as f:
+                writer = csv.writer(f, delimiter='|')
+                for i in lst:
+                    row = []
+                    for c in columns:
+                        row.append(c(i))
+                    writer.writerow(row)
+
+        def exportCsv(table,lst, columns):
+            with open(os.path.join("{}.csv".format(table)), "a", newline='') as f:
                 writer = csv.writer(f, delimiter='|')
                 for i in lst:
                     row = []
@@ -88,6 +98,15 @@ class Baza(object):
             lambda x: x.dane_osadzonego.id,
             lambda x: x.funkcjonariusz.id,
             lambda x: x.komisariat.id
+        ])
+        #numer_porzadkowy, dlugosc_trasy, poczatek__trasy, koniec__trasy, czas_patrolu, ilosc_problemow
+        exportCsv("Patrole", self.patrol, [
+            lambda x: x.numer_porzadkowy,
+            lambda x: x.dlugosc_trasy,
+            lambda x: x.poczatek_trasy,
+            lambda x: x.koniec_trasy,
+            lambda x: x.czas_patrolu,
+            lambda x: x.ilosc_problemow
         ])
 
     def next_id(self):
@@ -185,6 +204,21 @@ class Baza(object):
             self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(), kwota,
                                                            powod, czas, osoba_legitymowana,
                                                            miejsce, _funkcjonariusz))
+            i += 1
+            if i > ilosc_obiektow:
+                break
+
+        # Numer porządkowy samochodu funkcjonariuszy|Długość trasy patrolu|Początek trasy|Koniec trasy|Czas patrolu|Ilość problemów podczas patrolu
+        i = 0
+        for numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow in zip(
+                patrole.get_car_number(),
+                patrole.get_patrol_length(),
+                generator_adresu(),
+                generator_adresu(),
+                patrole.get_patrol_time(),
+                patrole.get_patrol_issues()
+        ):
+            self.patrol.append(Patrole(numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow))
             i += 1
             if i > ilosc_obiektow:
                 break
