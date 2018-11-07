@@ -86,6 +86,7 @@ class Baza(object):
             lambda x: x.powod,
             lambda x: x.czas,
             lambda x: x.osoba_legitymowana.id,
+            lambda x: x.miejsce.id,
             lambda x: x.funkcjonariusz.id
         ])
 

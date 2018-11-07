@@ -2119,3 +2119,306 @@
 15|18|Adres(id=908, kraj='Polska', miasto='Gdañsk', ulica='Zawiœlañska', numer=371)|Adres(id=15, kraj='Polska', miasto='Gdañsk', ulica='Boles³awa Prusa', numer=138)|3|0
 53|20|Adres(id=898, kraj='Polska', miasto='Gdañsk', ulica='Stok³osy', numer=151)|Adres(id=836, kraj='Polska', miasto='GdaÅ„sk', ulica='Storczykowa', numer=101)|3|1
 97|20|Adres(id=864, kraj='Polska', miasto='Gdynia', ulica='Bosmañska', numer=352)|Adres(id=22, kraj='Polska', miasto='Gdynia', ulica='Józefa ¯ylewicza', numer=312)|4|2
+61|15|Adres(id=33, kraj='Polska', miasto='Gdañsk', ulica='Mariacka', numer=52)|Adres(id=3, kraj='Polska', miasto='Gdañsk', ulica='¯ywiecka', numer=29)|3|3
+67|14|Adres(id=18, kraj='Polska', miasto='Gdañsk', ulica='Akwenowa', numer=117)|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|2|2
+75|14|Adres(id=51, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=292)|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|2|1
+44|20|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=36, kraj='Polska', miasto='GdaÅ„sk', ulica='Mariusza Zaruskiego', numer=170)|1|2
+89|19|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|2|3
+62|17|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=92, kraj='Polska', miasto='Sopot', ulica='Sowia', numer=257)|4|0
+32|13|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|2|3
+82|14|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|1|3
+13|15|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|2|3
+65|17|Adres(id=52, kraj='Polska', miasto='Gdañsk', ulica='Janusza Korczaka', numer=205)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|1|2
+89|13|Adres(id=62, kraj='Polska', miasto='GdaÅ„sk', ulica='Zagrodowa', numer=396)|Adres(id=83, kraj='Polska', miasto='Gdynia', ulica='Flory', numer=63)|3|1
+59|14|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|1|1
+64|11|Adres(id=23, kraj='Polska', miasto='Gdynia', ulica='Konrada Guderskiego', numer=151)|Adres(id=64, kraj='Polska', miasto='Gdañsk', ulica='Majora Hubala', numer=216)|4|1
+15|20|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|4|2
+34|15|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|2|0
+90|16|Adres(id=47, kraj='Polska', miasto='Gdañsk', ulica='Wartka', numer=152)|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|2|2
+49|18|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|Adres(id=87, kraj='Polska', miasto='Gdañsk', ulica='¯onkilowa', numer=352)|3|1
+33|20|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|3|0
+58|13|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|2|2
+59|20|Adres(id=40, kraj='Polska', miasto='Gdañsk', ulica='Stanis³awa D¹bka', numer=285)|Adres(id=100, kraj='Polska', miasto='Gdañsk', ulica='Ró¿ana', numer=284)|4|0
+49|17|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|Adres(id=52, kraj='Polska', miasto='Gdañsk', ulica='Janusza Korczaka', numer=205)|4|3
+74|19|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|1|3
+83|16|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|Adres(id=11, kraj='Polska', miasto='Sopot', ulica='W³adys³awa IV', numer=26)|3|3
+99|13|Adres(id=35, kraj='Polska', miasto='Gdynia', ulica='Rybo³owców', numer=360)|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|4|2
+27|13|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|1|1
+10|15|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=65, kraj='Polska', miasto='Gdañsk', ulica='Per³owa', numer=258)|3|1
+61|14|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+20|16|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|1|1
+72|11|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|Adres(id=86, kraj='Polska', miasto='Gdañsk', ulica='S¹siedzka', numer=139)|1|2
+58|13|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|3|2
+19|12|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+83|18|Adres(id=81, kraj='Polska', miasto='Gdañsk', ulica='Gnilna', numer=334)|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|4|1
+97|13|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|2|1
+14|13|Adres(id=2, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=211)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|1|1
+83|18|Adres(id=44, kraj='Polska', miasto='Gdañsk', ulica='Oliwkowa', numer=258)|Adres(id=58, kraj='Polska', miasto='Sopot', ulica='Fryderyka Chopina', numer=273)|4|2
+52|10|Adres(id=92, kraj='Polska', miasto='Sopot', ulica='Sowia', numer=257)|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|4|3
+57|17|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=81, kraj='Polska', miasto='Gdañsk', ulica='Gnilna', numer=334)|4|3
+59|18|Adres(id=91, kraj='Polska', miasto='GdaÅ„sk', ulica='Kazimierza Soœnickiego', numer=305)|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|4|0
+61|14|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=86, kraj='Polska', miasto='Gdañsk', ulica='S¹siedzka', numer=139)|2|3
+48|12|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|4|2
+26|17|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|1|2
+43|18|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|4|3
+58|10|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|3|1
+18|16|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|1|2
+76|17|Adres(id=29, kraj='Polska', miasto='Gdañsk', ulica='Alfa Liczmañskiego', numer=173)|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|2|3
+27|15|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=35, kraj='Polska', miasto='Gdynia', ulica='Rybo³owców', numer=360)|1|0
+85|16|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|2|1
+64|15|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|1|2
+68|17|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|2|2
+74|17|Adres(id=11, kraj='Polska', miasto='Sopot', ulica='W³adys³awa IV', numer=26)|Adres(id=61, kraj='Polska', miasto='GdaÅ„sk', ulica='Kolonia Ochota', numer=99)|4|3
+19|15|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|Adres(id=58, kraj='Polska', miasto='Sopot', ulica='Fryderyka Chopina', numer=273)|2|3
+82|20|Adres(id=47, kraj='Polska', miasto='Gdañsk', ulica='Wartka', numer=152)|Adres(id=78, kraj='Polska', miasto='Gdañsk', ulica='Swojska', numer=246)|1|0
+92|16|Adres(id=63, kraj='Polska', miasto='Gdañsk', ulica='Stoczniowców', numer=111)|Adres(id=24, kraj='Polska', miasto='Sopot', ulica='DŸwigowa', numer=153)|1|3
+77|17|Adres(id=61, kraj='Polska', miasto='GdaÅ„sk', ulica='Kolonia Ochota', numer=99)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|3|0
+69|18|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=15, kraj='Polska', miasto='Gdañsk', ulica='Diamentowa', numer=12)|1|1
+13|14|Adres(id=7, kraj='Polska', miasto='Sopot', ulica='Jelinki', numer=302)|Adres(id=2, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=211)|4|2
+91|20|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=93, kraj='Polska', miasto='Gdañsk', ulica='Bitwy pod Lenino', numer=39)|2|2
+24|11|Adres(id=50, kraj='Polska', miasto='Gdañsk', ulica='Jesienna', numer=352)|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|1|0
+58|11|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|1|0
+22|12|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|3|0
+68|10|Adres(id=20, kraj='Polska', miasto='Gdañsk', ulica='Zielony Stok', numer=173)|Adres(id=70, kraj='Polska', miasto='Gdañsk', ulica='Aleksandry Gabrysiak', numer=23)|3|3
+41|20|Adres(id=69, kraj='Polska', miasto='Gdynia', ulica='Wiêcierze', numer=363)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|4|2
+27|12|Adres(id=82, kraj='Polska', miasto='GdaÅ„sk', ulica='Odrzañska', numer=365)|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|2|1
+79|12|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|Adres(id=98, kraj='Polska', miasto='Gdañsk', ulica='Cyprysowa', numer=236)|2|1
+36|10|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|Adres(id=90, kraj='Polska', miasto='Gdynia', ulica='Otago', numer=263)|1|1
+41|17|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=46, kraj='Polska', miasto='Gdañsk', ulica='Kupiecka', numer=363)|4|0
+17|17|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|1|1
+86|15|Adres(id=12, kraj='Polska', miasto='GdaÅ„sk', ulica='Bukowa', numer=400)|Adres(id=72, kraj='Polska', miasto='Gdañsk', ulica='Wiewiórcza', numer=400)|2|3
+19|11|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|2|3
+38|20|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|Adres(id=56, kraj='Polska', miasto='Gdañsk', ulica='Kosmonautów', numer=151)|3|0
+78|15|Adres(id=100, kraj='Polska', miasto='Gdañsk', ulica='Ró¿ana', numer=284)|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|1|3
+87|19|Adres(id=50, kraj='Polska', miasto='Gdañsk', ulica='Jesienna', numer=352)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|4|1
+82|10|Adres(id=72, kraj='Polska', miasto='Gdañsk', ulica='Wiewiórcza', numer=400)|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|3|2
+24|18|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|1|2
+36|17|Adres(id=37, kraj='Polska', miasto='Gdañsk', ulica='Bia³a', numer=4)|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|2|3
+70|15|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|1|0
+84|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|4|3
+40|17|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|4|1
+85|19|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|2|0
+77|15|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=83, kraj='Polska', miasto='Gdynia', ulica='Flory', numer=63)|3|2
+43|16|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|4|2
+34|20|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|1|2
+79|19|Adres(id=29, kraj='Polska', miasto='Gdañsk', ulica='Alfa Liczmañskiego', numer=173)|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|2|3
+28|17|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|Adres(id=15, kraj='Polska', miasto='Gdañsk', ulica='Diamentowa', numer=12)|2|3
+86|17|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|3|1
+51|15|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=97, kraj='Polska', miasto='Gdynia', ulica='Górka', numer=345)|3|1
+51|12|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|Adres(id=49, kraj='Polska', miasto='Gdañsk', ulica='Deotymy', numer=229)|3|2
+54|17|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|Adres(id=69, kraj='Polska', miasto='Gdynia', ulica='Wiêcierze', numer=363)|2|3
+68|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|3|3
+61|12|Adres(id=8, kraj='Polska', miasto='Gdañsk', ulica='Zgody I', numer=269)|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|1|0
+75|14|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|Adres(id=22, kraj='Polska', miasto='Sopot', ulica='Miedziana', numer=186)|2|1
+45|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|1|2
+17|10|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|1|3
+49|11|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|Adres(id=40, kraj='Polska', miasto='Gdañsk', ulica='Stanis³awa D¹bka', numer=285)|3|1
+77|12|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=93, kraj='Polska', miasto='Gdañsk', ulica='Bitwy pod Lenino', numer=39)|1|3
+48|13|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+20|14|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|Adres(id=30, kraj='Polska', miasto='GdaÅ„sk', ulica='Jarowa', numer=203)|1|0
+71|20|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=101, kraj='Polska', miasto='Gdynia', ulica='Wileñska', numer=83)|1|1
+94|14|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|3|1
+52|11|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|2|2
+55|11|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|2|1
+61|15|Adres(id=33, kraj='Polska', miasto='Gdañsk', ulica='Mariacka', numer=52)|Adres(id=3, kraj='Polska', miasto='Gdañsk', ulica='¯ywiecka', numer=29)|3|3
+67|14|Adres(id=18, kraj='Polska', miasto='Gdañsk', ulica='Akwenowa', numer=117)|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|2|2
+75|14|Adres(id=51, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=292)|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|2|1
+44|20|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=36, kraj='Polska', miasto='GdaÅ„sk', ulica='Mariusza Zaruskiego', numer=170)|1|2
+89|19|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|2|3
+62|17|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=92, kraj='Polska', miasto='Sopot', ulica='Sowia', numer=257)|4|0
+32|13|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|2|3
+82|14|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|1|3
+13|15|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|2|3
+65|17|Adres(id=52, kraj='Polska', miasto='Gdañsk', ulica='Janusza Korczaka', numer=205)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|1|2
+89|13|Adres(id=62, kraj='Polska', miasto='GdaÅ„sk', ulica='Zagrodowa', numer=396)|Adres(id=83, kraj='Polska', miasto='Gdynia', ulica='Flory', numer=63)|3|1
+59|14|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|1|1
+64|11|Adres(id=23, kraj='Polska', miasto='Gdynia', ulica='Konrada Guderskiego', numer=151)|Adres(id=64, kraj='Polska', miasto='Gdañsk', ulica='Majora Hubala', numer=216)|4|1
+15|20|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|4|2
+34|15|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|2|0
+90|16|Adres(id=47, kraj='Polska', miasto='Gdañsk', ulica='Wartka', numer=152)|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|2|2
+49|18|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|Adres(id=87, kraj='Polska', miasto='Gdañsk', ulica='¯onkilowa', numer=352)|3|1
+33|20|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|3|0
+58|13|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|2|2
+59|20|Adres(id=40, kraj='Polska', miasto='Gdañsk', ulica='Stanis³awa D¹bka', numer=285)|Adres(id=100, kraj='Polska', miasto='Gdañsk', ulica='Ró¿ana', numer=284)|4|0
+49|17|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|Adres(id=52, kraj='Polska', miasto='Gdañsk', ulica='Janusza Korczaka', numer=205)|4|3
+74|19|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|1|3
+83|16|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|Adres(id=11, kraj='Polska', miasto='Sopot', ulica='W³adys³awa IV', numer=26)|3|3
+99|13|Adres(id=35, kraj='Polska', miasto='Gdynia', ulica='Rybo³owców', numer=360)|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|4|2
+27|13|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|1|1
+10|15|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=65, kraj='Polska', miasto='Gdañsk', ulica='Per³owa', numer=258)|3|1
+61|14|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+20|16|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|1|1
+72|11|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|Adres(id=86, kraj='Polska', miasto='Gdañsk', ulica='S¹siedzka', numer=139)|1|2
+58|13|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|3|2
+19|12|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+83|18|Adres(id=81, kraj='Polska', miasto='Gdañsk', ulica='Gnilna', numer=334)|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|4|1
+97|13|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|2|1
+14|13|Adres(id=2, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=211)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|1|1
+83|18|Adres(id=44, kraj='Polska', miasto='Gdañsk', ulica='Oliwkowa', numer=258)|Adres(id=58, kraj='Polska', miasto='Sopot', ulica='Fryderyka Chopina', numer=273)|4|2
+52|10|Adres(id=92, kraj='Polska', miasto='Sopot', ulica='Sowia', numer=257)|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|4|3
+57|17|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=81, kraj='Polska', miasto='Gdañsk', ulica='Gnilna', numer=334)|4|3
+59|18|Adres(id=91, kraj='Polska', miasto='GdaÅ„sk', ulica='Kazimierza Soœnickiego', numer=305)|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|4|0
+61|14|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=86, kraj='Polska', miasto='Gdañsk', ulica='S¹siedzka', numer=139)|2|3
+48|12|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|4|2
+26|17|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|1|2
+43|18|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=28, kraj='Polska', miasto='Gdañsk', ulica='Cmentarna', numer=240)|4|3
+58|10|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|3|1
+18|16|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|1|2
+76|17|Adres(id=29, kraj='Polska', miasto='Gdañsk', ulica='Alfa Liczmañskiego', numer=173)|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|2|3
+27|15|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=35, kraj='Polska', miasto='Gdynia', ulica='Rybo³owców', numer=360)|1|0
+85|16|Adres(id=32, kraj='Polska', miasto='GdaÅ„sk', ulica='Cumowników', numer=282)|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|2|1
+64|15|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|1|2
+68|17|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|2|2
+74|17|Adres(id=11, kraj='Polska', miasto='Sopot', ulica='W³adys³awa IV', numer=26)|Adres(id=61, kraj='Polska', miasto='GdaÅ„sk', ulica='Kolonia Ochota', numer=99)|4|3
+19|15|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|Adres(id=58, kraj='Polska', miasto='Sopot', ulica='Fryderyka Chopina', numer=273)|2|3
+82|20|Adres(id=47, kraj='Polska', miasto='Gdañsk', ulica='Wartka', numer=152)|Adres(id=78, kraj='Polska', miasto='Gdañsk', ulica='Swojska', numer=246)|1|0
+92|16|Adres(id=63, kraj='Polska', miasto='Gdañsk', ulica='Stoczniowców', numer=111)|Adres(id=24, kraj='Polska', miasto='Sopot', ulica='DŸwigowa', numer=153)|1|3
+77|17|Adres(id=61, kraj='Polska', miasto='GdaÅ„sk', ulica='Kolonia Ochota', numer=99)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|3|0
+69|18|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|Adres(id=15, kraj='Polska', miasto='Gdañsk', ulica='Diamentowa', numer=12)|1|1
+13|14|Adres(id=7, kraj='Polska', miasto='Sopot', ulica='Jelinki', numer=302)|Adres(id=2, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=211)|4|2
+91|20|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=93, kraj='Polska', miasto='Gdañsk', ulica='Bitwy pod Lenino', numer=39)|2|2
+24|11|Adres(id=50, kraj='Polska', miasto='Gdañsk', ulica='Jesienna', numer=352)|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|1|0
+58|11|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|1|0
+22|12|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|3|0
+68|10|Adres(id=20, kraj='Polska', miasto='Gdañsk', ulica='Zielony Stok', numer=173)|Adres(id=70, kraj='Polska', miasto='Gdañsk', ulica='Aleksandry Gabrysiak', numer=23)|3|3
+41|20|Adres(id=69, kraj='Polska', miasto='Gdynia', ulica='Wiêcierze', numer=363)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|4|2
+27|12|Adres(id=82, kraj='Polska', miasto='GdaÅ„sk', ulica='Odrzañska', numer=365)|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|2|1
+79|12|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|Adres(id=98, kraj='Polska', miasto='Gdañsk', ulica='Cyprysowa', numer=236)|2|1
+36|10|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|Adres(id=90, kraj='Polska', miasto='Gdynia', ulica='Otago', numer=263)|1|1
+41|17|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=46, kraj='Polska', miasto='Gdañsk', ulica='Kupiecka', numer=363)|4|0
+17|17|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|1|1
+86|15|Adres(id=12, kraj='Polska', miasto='GdaÅ„sk', ulica='Bukowa', numer=400)|Adres(id=72, kraj='Polska', miasto='Gdañsk', ulica='Wiewiórcza', numer=400)|2|3
+19|11|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|2|3
+38|20|Adres(id=73, kraj='Polska', miasto='Gdañsk', ulica='Bliska', numer=26)|Adres(id=56, kraj='Polska', miasto='Gdañsk', ulica='Kosmonautów', numer=151)|3|0
+78|15|Adres(id=100, kraj='Polska', miasto='Gdañsk', ulica='Ró¿ana', numer=284)|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|1|3
+87|19|Adres(id=50, kraj='Polska', miasto='Gdañsk', ulica='Jesienna', numer=352)|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|4|1
+82|10|Adres(id=72, kraj='Polska', miasto='Gdañsk', ulica='Wiewiórcza', numer=400)|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|3|2
+24|18|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|1|2
+36|17|Adres(id=37, kraj='Polska', miasto='Gdañsk', ulica='Bia³a', numer=4)|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|2|3
+70|15|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|1|0
+84|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|4|3
+40|17|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|4|1
+85|19|Adres(id=85, kraj='Polska', miasto='Gdañsk', ulica='Konstantego Ildefonsa Ga³czyñskiego', numer=32)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|2|0
+77|15|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=83, kraj='Polska', miasto='Gdynia', ulica='Flory', numer=63)|3|2
+43|16|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|4|2
+34|20|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=1, kraj='Polska', miasto='GdaÅ„sk', ulica='Aksamitna', numer=1)|1|2
+79|19|Adres(id=29, kraj='Polska', miasto='Gdañsk', ulica='Alfa Liczmañskiego', numer=173)|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|2|3
+28|17|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|Adres(id=15, kraj='Polska', miasto='Gdañsk', ulica='Diamentowa', numer=12)|2|3
+86|17|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|3|1
+51|15|Adres(id=53, kraj='Polska', miasto='Gdañsk', ulica='Antoniego Antczaka', numer=252)|Adres(id=97, kraj='Polska', miasto='Gdynia', ulica='Górka', numer=345)|3|1
+51|12|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|Adres(id=49, kraj='Polska', miasto='Gdañsk', ulica='Deotymy', numer=229)|3|2
+54|17|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|Adres(id=69, kraj='Polska', miasto='Gdynia', ulica='Wiêcierze', numer=363)|2|3
+68|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|3|3
+61|12|Adres(id=8, kraj='Polska', miasto='Gdañsk', ulica='Zgody I', numer=269)|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|1|0
+75|14|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|Adres(id=22, kraj='Polska', miasto='Sopot', ulica='Miedziana', numer=186)|2|1
+45|16|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|1|2
+17|10|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=16, kraj='Polska', miasto='GdaÅ„sk', ulica='Kana³owa', numer=163)|1|3
+49|11|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|Adres(id=40, kraj='Polska', miasto='Gdañsk', ulica='Stanis³awa D¹bka', numer=285)|3|1
+77|12|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=93, kraj='Polska', miasto='Gdañsk', ulica='Bitwy pod Lenino', numer=39)|1|3
+48|13|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|3
+20|14|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|Adres(id=30, kraj='Polska', miasto='GdaÅ„sk', ulica='Jarowa', numer=203)|1|0
+71|20|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=101, kraj='Polska', miasto='Gdynia', ulica='Wileñska', numer=83)|1|1
+94|14|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|Adres(id=42, kraj='Polska', miasto='Gdañsk', ulica='Jerzego Giedroycia', numer=400)|3|1
+52|11|Adres(id=96, kraj='Polska', miasto='Gdañsk', ulica='Nowomiejska', numer=129)|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|2|2
+55|11|Adres(id=25, kraj='Polska', miasto='GdaÅ„sk', ulica='Ostro³êcka', numer=269)|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|2|1
+21|18|Adres(id=903, kraj='Polska', miasto='Gdañsk', ulica='£añcucka', numer=331)|Adres(id=71, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=376)|4|2
+58|12|Adres(id=856, kraj='Polska', miasto='Gdañsk', ulica='Jeremiasza Falck Polonusa', numer=155)|Adres(id=58, kraj='Polska', miasto='Sopot', ulica='Fryderyka Chopina', numer=273)|1|1
+94|19|Adres(id=857, kraj='Polska', miasto='Gdynia', ulica='Ikara', numer=11)|Adres(id=854, kraj='Polska', miasto='Gdañsk', ulica='Rybitwy', numer=328)|1|1
+30|11|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|Adres(id=21, kraj='Polska', miasto='Gdañsk', ulica='Bronis³awa Czecha', numer=396)|4|0
+62|13|Adres(id=87, kraj='Polska', miasto='Gdañsk', ulica='¯onkilowa', numer=352)|Adres(id=87, kraj='Polska', miasto='Gdañsk', ulica='¯onkilowa', numer=352)|3|1
+68|15|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|Adres(id=813, kraj='Polska', miasto='Gdañsk', ulica='Stolarska', numer=329)|2|2
+85|10|Adres(id=886, kraj='Polska', miasto='Gdynia', ulica='Letnia', numer=384)|Adres(id=848, kraj='Polska', miasto='Gdañsk', ulica='Jacka Malczewskiego', numer=214)|4|0
+40|17|Adres(id=10, kraj='Polska', miasto='Gdañsk', ulica='Waryñskiego', numer=261)|Adres(id=878, kraj='Polska', miasto='Gdañsk', ulica='Kraœniêta', numer=162)|4|0
+69|12|Adres(id=836, kraj='Polska', miasto='Gdañsk', ulica='Warzywnicza', numer=190)|Adres(id=823, kraj='Polska', miasto='Sopot', ulica='Bohaterów Getta Warszawskiego', numer=123)|1|3
+36|20|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=863, kraj='Polska', miasto='Gdañsk', ulica='Franciszka Zab³ockiego', numer=23)|4|3
+46|12|Adres(id=66, kraj='Polska', miasto='Gdañsk', ulica='Profesor Zygmunta Czubiñskiego', numer=58)|Adres(id=24, kraj='Polska', miasto='Sopot', ulica='DŸwigowa', numer=153)|4|3
+28|20|Adres(id=899, kraj='Polska', miasto='Gdañsk', ulica='Zosi', numer=358)|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|3|3
+88|17|Adres(id=857, kraj='Polska', miasto='Gdynia', ulica='Ikara', numer=11)|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|2|2
+12|19|Adres(id=70, kraj='Polska', miasto='Gdañsk', ulica='Aleksandry Gabrysiak', numer=23)|Adres(id=897, kraj='Polska', miasto='Sopot', ulica='Straszyñska', numer=243)|4|2
+27|17|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|Adres(id=75, kraj='Polska', miasto='Gdañsk', ulica='Cedrowa', numer=254)|4|1
+97|12|Adres(id=98, kraj='Polska', miasto='Gdañsk', ulica='Cyprysowa', numer=236)|Adres(id=93, kraj='Polska', miasto='Gdañsk', ulica='Bitwy pod Lenino', numer=39)|3|3
+41|19|Adres(id=81, kraj='Polska', miasto='Gdañsk', ulica='Gnilna', numer=334)|Adres(id=35, kraj='Polska', miasto='Gdynia', ulica='Rybo³owców', numer=360)|1|2
+97|11|Adres(id=853, kraj='Polska', miasto='Gdañsk', ulica='Jarzêbinowa', numer=91)|Adres(id=875, kraj='Polska', miasto='Gdañsk', ulica='Wyzwolenia', numer=199)|1|2
+56|17|Adres(id=64, kraj='Polska', miasto='Gdañsk', ulica='Majora Hubala', numer=216)|Adres(id=905, kraj='Polska', miasto='Gdañsk', ulica='Opacka', numer=193)|2|2
+29|13|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|Adres(id=63, kraj='Polska', miasto='Gdañsk', ulica='Stoczniowców', numer=111)|3|2
+24|15|Adres(id=74, kraj='Polska', miasto='Gdañsk', ulica='S³owiañska', numer=102)|Adres(id=829, kraj='Polska', miasto='Gdañsk', ulica='PowroŸnicza', numer=188)|3|2
+50|10|Adres(id=24, kraj='Polska', miasto='Sopot', ulica='DŸwigowa', numer=153)|Adres(id=33, kraj='Polska', miasto='Gdañsk', ulica='Mariacka', numer=52)|1|1
+45|19|Adres(id=29, kraj='Polska', miasto='Gdañsk', ulica='Alfa Liczmañskiego', numer=173)|Adres(id=7, kraj='Polska', miasto='Sopot', ulica='Jelinki', numer=302)|1|3
+90|11|Adres(id=866, kraj='Polska', miasto='Gdañsk', ulica='Miko³aja Kopernika', numer=290)|Adres(id=865, kraj='Polska', miasto='Gdañsk', ulica='Barokowa', numer=112)|3|3
+12|14|Adres(id=45, kraj='Polska', miasto='Gdañsk', ulica='Czeremchowa', numer=134)|Adres(id=896, kraj='Polska', miasto='Gdañsk', ulica='Rakietowa', numer=164)|1|1
+57|14|Adres(id=101, kraj='Polska', miasto='Gdynia', ulica='Wileñska', numer=83)|Adres(id=83, kraj='Polska', miasto='Gdynia', ulica='Flory', numer=63)|3|2
+45|11|Adres(id=865, kraj='Polska', miasto='Gdañsk', ulica='Barokowa', numer=112)|Adres(id=30, kraj='Polska', miasto='GdaÅ„sk', ulica='Jarowa', numer=203)|2|2
+38|13|Adres(id=57, kraj='Polska', miasto='Gdañsk', ulica='G³ogowska', numer=170)|Adres(id=3, kraj='Polska', miasto='Gdañsk', ulica='¯ywiecka', numer=29)|2|0
+69|18|Adres(id=97, kraj='Polska', miasto='Gdynia', ulica='Górka', numer=345)|Adres(id=74, kraj='Polska', miasto='Gdañsk', ulica='S³owiañska', numer=102)|1|1
+67|10|Adres(id=855, kraj='Polska', miasto='Gdañsk', ulica='pl. œw. Jana Aposto³a', numer=334)|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|1|2
+48|20|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|Adres(id=893, kraj='Polska', miasto='Gdañsk', ulica='Wojskiego', numer=292)|3|2
+25|19|Adres(id=47, kraj='Polska', miasto='Gdañsk', ulica='Wartka', numer=152)|Adres(id=868, kraj='Polska', miasto='Sopot', ulica='Parkingowa', numer=75)|2|1
+22|13|Adres(id=876, kraj='Polska', miasto='Gdañsk', ulica='Renesansowa', numer=215)|Adres(id=33, kraj='Polska', miasto='Gdañsk', ulica='Mariacka', numer=52)|2|1
+61|18|Adres(id=850, kraj='Polska', miasto='Gdañsk', ulica='Barwna', numer=71)|Adres(id=819, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=239)|3|2
+87|15|Adres(id=74, kraj='Polska', miasto='Gdañsk', ulica='S³owiañska', numer=102)|Adres(id=868, kraj='Polska', miasto='Sopot', ulica='Parkingowa', numer=75)|4|2
+23|14|Adres(id=835, kraj='Polska', miasto='Gdañsk', ulica='Niezapominajek', numer=272)|Adres(id=901, kraj='Polska', miasto='Gdañsk', ulica='Szopy', numer=26)|3|1
+87|18|Adres(id=34, kraj='Polska', miasto='Gdañsk', ulica='Serdeczna', numer=100)|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|2|0
+26|10|Adres(id=821, kraj='Polska', miasto='GdaÅ„sk', ulica='Ryszarda Wagnera', numer=29)|Adres(id=63, kraj='Polska', miasto='Gdañsk', ulica='Stoczniowców', numer=111)|2|3
+68|15|Adres(id=832, kraj='Polska', miasto='Gdañsk', ulica='Aliny Pienkowskiej', numer=368)|Adres(id=88, kraj='Polska', miasto='Gdañsk', ulica='Grodzieñska', numer=130)|2|3
+61|12|Adres(id=851, kraj='Polska', miasto='Gdañsk', ulica='Kolonia Postêp', numer=219)|Adres(id=861, kraj='Polska', miasto='GdaÅ„sk', ulica='Kontenerowa', numer=228)|2|1
+41|12|Adres(id=830, kraj='Polska', miasto='Sopot', ulica='Modrzewiowa', numer=15)|Adres(id=80, kraj='Polska', miasto='Gdañsk', ulica='Jana Wojnarskiego', numer=361)|2|3
+58|16|Adres(id=49, kraj='Polska', miasto='Gdañsk', ulica='Deotymy', numer=229)|Adres(id=89, kraj='Polska', miasto='Sopot', ulica='£ukasza Dziekuæ-Maleja', numer=395)|2|3
+35|19|Adres(id=851, kraj='Polska', miasto='Gdañsk', ulica='Kolonia Postêp', numer=219)|Adres(id=55, kraj='Polska', miasto='GdaÅ„sk', ulica='Baœniowa', numer=54)|4|2
+63|15|Adres(id=26, kraj='Polska', miasto='Gdañsk', ulica='Bratki', numer=223)|Adres(id=881, kraj='Polska', miasto='Gdañsk', ulica='Zielna', numer=222)|4|1
+12|10|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|Adres(id=819, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=239)|4|3
+25|10|Adres(id=67, kraj='Polska', miasto='GdaÅ„sk', ulica='S³oneczna', numer=310)|Adres(id=97, kraj='Polska', miasto='Gdynia', ulica='Górka', numer=345)|1|1
+76|17|Adres(id=846, kraj='Polska', miasto='Gdañsk', ulica='Przyjació³', numer=139)|Adres(id=8, kraj='Polska', miasto='Gdañsk', ulica='Zgody I', numer=269)|3|0
+12|20|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|4|0
+89|13|Adres(id=819, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=239)|Adres(id=49, kraj='Polska', miasto='Gdañsk', ulica='Deotymy', numer=229)|2|2
+76|12|Adres(id=877, kraj='Polska', miasto='Gdañsk', ulica='Elewów', numer=395)|Adres(id=814, kraj='Polska', miasto='Sopot', ulica='Józefa Che³moñskiego', numer=195)|2|3
+75|14|Adres(id=70, kraj='Polska', miasto='Gdañsk', ulica='Aleksandry Gabrysiak', numer=23)|Adres(id=4, kraj='Polska', miasto='Gdañsk', ulica='Rodzinna', numer=105)|2|2
+97|10|Adres(id=880, kraj='Polska', miasto='Sopot', ulica='Szczêœliwa', numer=372)|Adres(id=904, kraj='Polska', miasto='Gdañsk', ulica='Widliñska', numer=122)|1|0
+99|10|Adres(id=57, kraj='Polska', miasto='Gdañsk', ulica='G³ogowska', numer=170)|Adres(id=95, kraj='Polska', miasto='Gdañsk', ulica='Zielone Wzgórze', numer=324)|2|1
+74|17|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=820, kraj='Polska', miasto='Gdañsk', ulica='Alfreda Nobla', numer=90)|1|0
+88|15|Adres(id=87, kraj='Polska', miasto='Gdañsk', ulica='¯onkilowa', numer=352)|Adres(id=872, kraj='Polska', miasto='Gdañsk', ulica='Plejady', numer=325)|3|1
+99|11|Adres(id=19, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=150)|Adres(id=866, kraj='Polska', miasto='Gdañsk', ulica='Miko³aja Kopernika', numer=290)|3|3
+59|11|Adres(id=885, kraj='Polska', miasto='Gdañsk', ulica='Seleny', numer=239)|Adres(id=70, kraj='Polska', miasto='Gdañsk', ulica='Aleksandry Gabrysiak', numer=23)|2|3
+49|20|Adres(id=17, kraj='Polska', miasto='Sopot', ulica='£osia', numer=124)|Adres(id=834, kraj='Polska', miasto='Gdañsk', ulica='Wêgorzowa', numer=20)|2|3
+76|10|Adres(id=5, kraj='Polska', miasto='Gdañsk', ulica='Abrahama', numer=8)|Adres(id=30, kraj='Polska', miasto='GdaÅ„sk', ulica='Jarowa', numer=203)|4|2
+72|11|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|Adres(id=44, kraj='Polska', miasto='Gdañsk', ulica='Oliwkowa', numer=258)|4|2
+31|10|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|Adres(id=2, kraj='Polska', miasto='Gdañsk', ulica='prof. Kazimierza Kopeckiego', numer=211)|3|3
+96|15|Adres(id=897, kraj='Polska', miasto='Sopot', ulica='Straszyñska', numer=243)|Adres(id=94, kraj='Polska', miasto='Sopot', ulica='Franciszka Bellinga', numer=167)|2|2
+88|12|Adres(id=26, kraj='Polska', miasto='Gdañsk', ulica='Bratki', numer=223)|Adres(id=18, kraj='Polska', miasto='Gdañsk', ulica='Akwenowa', numer=117)|2|3
+23|14|Adres(id=898, kraj='Polska', miasto='Gdañsk', ulica='¯o³nierska', numer=137)|Adres(id=849, kraj='Polska', miasto='Gdynia', ulica='Cyprysowa', numer=297)|2|0
+90|13|Adres(id=907, kraj='Polska', miasto='Gdañsk', ulica='Notecka', numer=214)|Adres(id=823, kraj='Polska', miasto='Sopot', ulica='Bohaterów Getta Warszawskiego', numer=123)|1|1
+75|18|Adres(id=30, kraj='Polska', miasto='GdaÅ„sk', ulica='Jarowa', numer=203)|Adres(id=852, kraj='Polska', miasto='Gdañsk', ulica='Spacerowa', numer=287)|3|1
+80|20|Adres(id=819, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=239)|Adres(id=856, kraj='Polska', miasto='Gdañsk', ulica='Jeremiasza Falck Polonusa', numer=155)|2|2
+98|13|Adres(id=84, kraj='Polska', miasto='Gdañsk', ulica='Wypoczynkowa', numer=219)|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|2|3
+30|17|Adres(id=852, kraj='Polska', miasto='Gdañsk', ulica='Spacerowa', numer=287)|Adres(id=867, kraj='Polska', miasto='Gdynia', ulica='Prze³om', numer=187)|4|3
+26|13|Adres(id=870, kraj='Polska', miasto='Gdañsk', ulica='Karola Dickensa', numer=285)|Adres(id=43, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=38)|3|0
+81|12|Adres(id=60, kraj='Polska', miasto='Gdynia', ulica='K³osowa', numer=302)|Adres(id=895, kraj='Polska', miasto='Gdañsk', ulica='Protazego', numer=227)|3|0
+51|13|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|Adres(id=99, kraj='Polska', miasto='GdaÅ„sk', ulica='Bursztynowa', numer=174)|3|1
+83|18|Adres(id=909, kraj='Polska', miasto='Gdañsk', ulica='Warzywnicza', numer=309)|Adres(id=881, kraj='Polska', miasto='Gdañsk', ulica='Zielna', numer=222)|4|0
+35|16|Adres(id=810, kraj='Polska', miasto='Gdañsk', ulica='Podgarbary', numer=64)|Adres(id=822, kraj='Polska', miasto='Gdañsk', ulica='Gryfa Pomorskiego', numer=345)|1|3
+62|10|Adres(id=14, kraj='Polska', miasto='Gdañsk', ulica='Traugutta', numer=49)|Adres(id=899, kraj='Polska', miasto='Gdañsk', ulica='Zosi', numer=358)|1|3
+97|13|Adres(id=852, kraj='Polska', miasto='Gdañsk', ulica='Spacerowa', numer=287)|Adres(id=901, kraj='Polska', miasto='Gdañsk', ulica='Szopy', numer=26)|3|3
+65|12|Adres(id=828, kraj='Polska', miasto='Gdañsk', ulica='Drawska', numer=22)|Adres(id=77, kraj='Polska', miasto='Gdañsk', ulica='Borsucza', numer=156)|2|0
+32|17|Adres(id=6, kraj='Polska', miasto='Gdañsk', ulica='Jab³oniowa', numer=217)|Adres(id=886, kraj='Polska', miasto='Gdynia', ulica='Letnia', numer=384)|4|2
+18|17|Adres(id=39, kraj='Polska', miasto='Gdañsk', ulica='Ksiêdza Mariana Góreckiego', numer=346)|Adres(id=74, kraj='Polska', miasto='Gdañsk', ulica='S³owiañska', numer=102)|1|1
+81|20|Adres(id=845, kraj='Polska', miasto='GdaÅ„sk', ulica='Bzowa', numer=102)|Adres(id=74, kraj='Polska', miasto='Gdañsk', ulica='S³owiañska', numer=102)|2|0
+79|11|Adres(id=18, kraj='Polska', miasto='Gdañsk', ulica='Akwenowa', numer=117)|Adres(id=847, kraj='Polska', miasto='GdaÅ„sk', ulica='Jowisza', numer=277)|1|2
+60|14|Adres(id=48, kraj='Polska', miasto='Gdañsk', ulica='Owczarnia', numer=86)|Adres(id=898, kraj='Polska', miasto='Gdañsk', ulica='¯o³nierska', numer=137)|4|3
+84|18|Adres(id=33, kraj='Polska', miasto='Gdañsk', ulica='Mariacka', numer=52)|Adres(id=810, kraj='Polska', miasto='Gdañsk', ulica='Podgarbary', numer=64)|4|3
+13|17|Adres(id=835, kraj='Polska', miasto='Gdañsk', ulica='Niezapominajek', numer=272)|Adres(id=68, kraj='Polska', miasto='GdaÅ„sk', ulica='Rac³awicka', numer=93)|3|0
+87|19|Adres(id=86, kraj='Polska', miasto='Gdañsk', ulica='S¹siedzka', numer=139)|Adres(id=27, kraj='Polska', miasto='Gdañsk', ulica='Wincentego Pstrowskiego', numer=219)|3|0
+60|11|Adres(id=849, kraj='Polska', miasto='Gdynia', ulica='Cyprysowa', numer=297)|Adres(id=830, kraj='Polska', miasto='Sopot', ulica='Modrzewiowa', numer=15)|3|2
+88|11|Adres(id=874, kraj='Polska', miasto='Gdañsk', ulica='Rybaki Górne', numer=138)|Adres(id=11, kraj='Polska', miasto='Sopot', ulica='W³adys³awa IV', numer=26)|4|3
+65|13|Adres(id=873, kraj='Polska', miasto='Gdañsk', ulica='Bielañska', numer=378)|Adres(id=31, kraj='Polska', miasto='Sopot', ulica='Sierakowicka', numer=357)|4|0
+61|20|Adres(id=875, kraj='Polska', miasto='Gdañsk', ulica='Wyzwolenia', numer=199)|Adres(id=841, kraj='Polska', miasto='Gdañsk', ulica='Szkocka', numer=327)|4|2
+47|12|Adres(id=824, kraj='Polska', miasto='Gdañsk', ulica='Franciszka Bohomolca', numer=133)|Adres(id=59, kraj='Polska', miasto='Gdañsk', ulica='Profesora Stanis³awa Szpora', numer=366)|2|0
+61|16|Adres(id=860, kraj='Polska', miasto='Gdañsk', ulica='Zakosy', numer=285)|Adres(id=9, kraj='Polska', miasto='Sopot', ulica='Pastelowa', numer=219)|2|1
+63|18|Adres(id=101, kraj='Polska', miasto='Gdynia', ulica='Wileñska', numer=83)|Adres(id=76, kraj='Polska', miasto='Gdañsk', ulica='Braci Lewoniewskich', numer=78)|3|1
+99|13|Adres(id=92, kraj='Polska', miasto='Sopot', ulica='Sowia', numer=257)|Adres(id=23, kraj='Polska', miasto='Gdynia', ulica='Konrada Guderskiego', numer=151)|3|1
+29|10|Adres(id=867, kraj='Polska', miasto='Gdynia', ulica='Prze³om', numer=187)|Adres(id=51, kraj='Polska', miasto='Gdañsk', ulica='Parterowa', numer=292)|2|2
+76|12|Adres(id=21, kraj='Polska', miasto='Gdañsk', ulica='Bronis³awa Czecha', numer=396)|Adres(id=819, kraj='Polska', miasto='GdaÅ„sk', ulica='Kosmonautów', numer=239)|2|0
+83|13|Adres(id=838, kraj='Polska', miasto='Gdañsk', ulica='Zbigniewa Burzyñskiego', numer=169)|Adres(id=813, kraj='Polska', miasto='Gdañsk', ulica='Stolarska', numer=329)|3|1
+46|10|Adres(id=13, kraj='Polska', miasto='Gdañsk', ulica='Dar¿lubska', numer=227)|Adres(id=846, kraj='Polska', miasto='Gdañsk', ulica='Przyjació³', numer=139)|3|2
+44|11|Adres(id=906, kraj='Polska', miasto='Gdañsk', ulica='Wroc³awska', numer=128)|Adres(id=24, kraj='Polska', miasto='Sopot', ulica='DŸwigowa', numer=153)|3|0
+21|18|Adres(id=897, kraj='Polska', miasto='Sopot', ulica='Straszyñska', numer=243)|Adres(id=835, kraj='Polska', miasto='Gdañsk', ulica='Niezapominajek', numer=272)|3|2
+62|13|Adres(id=837, kraj='Polska', miasto='Gdañsk', ulica='Przemyska', numer=339)|Adres(id=823, kraj='Polska', miasto='Sopot', ulica='Bohaterów Getta Warszawskiego', numer=123)|4|2
+63|17|Adres(id=37, kraj='Polska', miasto='Gdañsk', ulica='Bia³a', numer=4)|Adres(id=887, kraj='Polska', miasto='Gdynia', ulica='Rokitnikowa', numer=330)|3|1
