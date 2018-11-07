@@ -8,11 +8,11 @@ UPDATE Funkcjonariusz SET Stopien=Nadkomisarz, Miejsce_przydziału=2 WHERE Id = 
 UPDATE Funkcjonariusz SET Stopien=Starszy Posterunkowy, Miejsce_przydziału=3 WHERE Id = 2;  
 UPDATE Funkcjonariusz SET Stopien=Generalny Inspektor, Miejsce_przydziału=45 WHERE Id = 0;
 
-UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;    
-UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
-UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
-UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
-UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
+UPDATE Wystawianie_mandatow SET Powod=Przekroczenie prędkości WHERE Id = 444;    
+UPDATE Wystawianie_mandatow SET Powod=Hałas w strefie ciszy WHERE Id = 470;  
+UPDATE Wystawianie_mandatow SET Powod=Nieprawidłowe zaopatrzenie rower w światła WHERE Id = 400;  
+UPDATE Wystawianie_mandatow SET Powod=Niszczenie mienia publicznego WHERE Id = 401;  
+UPDATE Wystawianie_mandatow SET Powod=Niszczenie mienia publicznego WHERE Id = 409;  
 
-UPDATE Przebywanie_w_areszcie SET Powod=Przewożenie dziecka w pojeździe poza fotelikiem ochronnym, Czas=2017-09-06 21:14:11 WHERE Id = 545;
-UPDATE Przebywanie_w_areszcie SET Czas=2017-09-06 21:01:01 WHERE Id = X;
+UPDATE Przebywanie_w_areszcie SET Powod=Agresja wobec policjanta, Czas=2017-09-06 21:14:11 WHERE Id = 545;
+UPDATE Przebywanie_w_areszcie SET Czas=2017-09-06 21:01:01 WHERE Id = 644;
