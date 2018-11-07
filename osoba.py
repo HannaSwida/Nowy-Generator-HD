@@ -26,5 +26,5 @@ def generator_emaili():
 
 def generator_nazwisk():
     while True:
-        random_line = random.choice(open("imiona.txt").read().split('\n'))
+        random_line = random.choice(open("nazwisko.txt").read().split('\n'))
         yield(random_line)
