@@ -4,3 +4,11 @@ III Komisariat Policji
 IV Komisariat Policji
 V Komisariat Policji
 VI Komisariat Policji
+VII Komisariat Policji
+VIII Komisariat Policji
+IX Komisariat Policji
+X Komisariat Policji
+XI Komisariat Policji
+XII Komisariat Policji
+XIII Komisariat Policji
+
