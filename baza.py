@@ -104,8 +104,8 @@ class Baza(object):
         exportCsv("Patrole", self.patrol, [
             lambda x: x.numer_porzadkowy,
             lambda x: x.dlugosc_trasy,
-            lambda x: x.poczatek_trasy,
-            lambda x: x.koniec_trasy,
+            lambda x: x.poczatek_trasy.miasto+' '+x.poczatek_trasy.ulica+' '+str(x.poczatek_trasy.numer),
+            lambda x: x.koniec_trasy.miasto+' '+x.koniec_trasy.ulica+' '+str(x.koniec_trasy.numer),
             lambda x: x.czas_patrolu,
             lambda x: x.ilosc_problemow
         ])
