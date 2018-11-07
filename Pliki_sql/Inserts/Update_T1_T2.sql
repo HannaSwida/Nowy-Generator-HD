@@ -14,5 +14,5 @@ UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;
 UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
 UPDATE Wystawianie_mandatow SET Powod=X WHERE Id = X;  
 
-UPDATE Przebywanie_w_areszcie SET Powod=X, Czas=X WHERE Id = X;
-UPDATE Przebywanie_w_areszcie SET Czas=X WHERE Id = X;
+UPDATE Przebywanie_w_areszcie SET Powod=Przewożenie dziecka w pojeździe poza fotelikiem ochronnym, Czas=2017-09-06 21:14:11 WHERE Id = 545;
+UPDATE Przebywanie_w_areszcie SET Czas=2017-09-06 21:01:01 WHERE Id = X;
