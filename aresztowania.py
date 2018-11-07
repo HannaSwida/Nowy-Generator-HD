@@ -10,8 +10,8 @@ def date(d):
 
 def generator_dat(start_date, end_date):
     while True:
-        start = random.randint(start_date, end_date)
-        yield date(start)
+        data = random.randint(start_date, end_date)
+        yield date(data)
 
 
 def generator_dni():

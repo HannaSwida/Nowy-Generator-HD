@@ -195,16 +195,17 @@ class Baza(object):
 
             # id czas czas_interwenji powod dane_osadzonego funkcjonariusz
         i = 0
-        for czas, czas_interwencji, powod, dane_osadzonego, _funkcjonariusz in zip(
+        for czas, czas_interwencji, powod, dane_osadzonego, _funkcjonariusz, _komisariat in zip(
             aresztowania.generator_dni(),
             aresztowania.generator_dat(start_date, end_date),
             aresztowania.generator_powodow(),
             generator_osob(),
-            generator_funkcjonariuszy()
+            generator_funkcjonariuszy(),
+            generator_komisariatow()
             ):
-            self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(), kwota,
-                                                           powod, czas, osoba_legitymowana,
-                                                           miejsce, _funkcjonariusz))
+            self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(), czas, czas_interwencji,
+                                                          powod, dane_osadzonego, _funkcjonariusz,
+                                                          _komisariat))
             i += 1
             if i > ilosc_obiektow:
                 break
