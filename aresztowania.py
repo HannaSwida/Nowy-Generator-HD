@@ -5,7 +5,7 @@ YEAR = 365 * 24 * 60 * 60
 
 
 def date(d):
-    return time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(d))
+    return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(d))
 
 
 def generator_dat(start_date, end_date):

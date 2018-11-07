@@ -35,7 +35,7 @@ def generate_csv(f, source):
 
 
 def date(d):
-    return time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(d))
+    return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(d))
 
 
 def generator_dat():

@@ -2422,3 +2422,306 @@
 21|18|Adres(id=897, kraj='Polska', miasto='Sopot', ulica='Straszyñska', numer=243)|Adres(id=835, kraj='Polska', miasto='Gdañsk', ulica='Niezapominajek', numer=272)|3|2
 62|13|Adres(id=837, kraj='Polska', miasto='Gdañsk', ulica='Przemyska', numer=339)|Adres(id=823, kraj='Polska', miasto='Sopot', ulica='Bohaterów Getta Warszawskiego', numer=123)|4|2
 63|17|Adres(id=37, kraj='Polska', miasto='Gdañsk', ulica='Bia³a', numer=4)|Adres(id=887, kraj='Polska', miasto='Gdynia', ulica='Rokitnikowa', numer=330)|3|1
+23|12|Gdañsk Dêbinki 35|Gdañsk M³odzie¿y Polskiej 261|4|2
+76|12|Sopot Jana Wojnarskiego 80|Gdañsk U³añska 376|4|0
+63|14|Gdañsk Szalupowa 49|Gdañsk Horacego 147|2|1
+50|18|Gdañsk Stajenna 250|Sopot Na Stoku 95|2|2
+59|16|Sopot Mostowa 55|Sopot Konstantego Ildefonsa Ga³czyñskiego 58|4|0
+33|10|Gdañsk GoŸdzikowa 209|Gdañsk Zygmunta Augusta 240|4|2
+43|14|Gdañsk Miechuciñska 54|Gdañsk Po Schodkach 302|3|1
+48|10|Gdañsk GoŸdzikowa 209|Gdynia Powstania Koœciuszkowskiego 178|4|1
+72|14|GdaÅ„sk Filaretów 274|Gdañsk Jana Heweliusza 73|1|1
+27|17|Gdañsk Wspólna 386|Gdañsk Daniela Chodowieckiego 124|1|3
+94|16|Gdañsk Pocztyiej 170|Gdañsk Dêbinki 35|4|2
+50|17|Gdañsk Horacego 147|Gdañsk Alfonsa Flisykowskiego 7|3|3
+93|10|Gdañsk Sobótki 342|Gdañsk Cyprysowa 286|4|0
+12|13|Gdañsk Dêbinki 35|Gdañsk Achillesa 368|2|0
+98|19|Gdañsk Kolonia Mysia 96|Gdañsk Mot³awska 22|3|1
+51|19|Gdañsk Kolonia Mysia 96|Sopot Mostowa 55|4|3
+70|18|Gdynia Powstania Koœciuszkowskiego 178|Gdañsk Zygmunta Rumla 81|3|3
+33|14|Gdañsk Benzynowa 115|Gdañsk Ignacego Kurzyñskiego 310|3|1
+46|14|Gdañsk Matemblewska 203|Gdañsk Miko³aja Dzia³yñskiego 4|2|2
+17|16|Sopot Planetarna 397|Gdañsk Grobla II 159|2|2
+64|10|Gdañsk K¹towa 94|Gdynia Dolne M³yny 73|1|2
+77|17|Gdañsk Szalupowa 49|Gdañsk Kartuska 330|2|1
+22|10|Gdañsk Horacego 147|Gdañsk Fundacyjna 160|4|0
+28|20|Gdañsk Straszyñska 349|Gdañsk K¹towa 288|3|0
+32|10|Gdañsk Gêsia 177|Gdañsk Zygmunta Rumla 81|4|1
+91|14|Gdañsk Sobótki 342|GdaÅ„sk Zielna 367|1|3
+14|18|Gdynia Mariana Buczka 400|Gdañsk Z³ota 299|3|3
+16|15|Gdynia Boles³awa Prusa 233|GdaÅ„sk £ostowicka 81|4|1
+92|12|Gdañsk Alfonsa Flisykowskiego 7|Gdynia Genera³a Bora-Komorowskiego 364|1|2
+54|18|Gdañsk Po Schodkach 302|Gdañsk Cyprysowa 286|2|0
+95|18|Gdañsk Konrada Wallenroda 123|Gdañsk Konrada Wallenroda 123|3|0
+65|10|Gdañsk Nowatorów 72|Gdañsk Antoniego Dobrowolskiego 231|3|0
+36|14|GdaÅ„sk Floriana Ceynowy 98|Gdañsk Edmunda Biernackiego 262|1|1
+80|13|Gdañsk Konrada Wallenroda 123|Gdañsk Stajenna 250|2|2
+84|19|Gdañsk Benzynowa 115|Gdañsk Szalupowa 49|1|0
+83|16|Gdañsk Stanis³awa So³dka 39|Gdañsk Zygmunta Rumla 81|4|2
+45|17|Gdañsk Fundacyjna 160|Sopot Jana Wojnarskiego 80|4|3
+41|15|Gdañsk Promienista 83|Gdañsk Szalupowa 49|3|1
+16|16|Gdañsk S³owiañska 202|Gdañsk Maciejkowa 223|2|0
+14|13|GdaÅ„sk Internetowa 292|Gdañsk Matemblewska 203|4|3
+99|12|Sopot Dobrzyñskich 55|Gdañsk K¹towa 288|2|1
+63|14|Gdañsk Wilgi 110|Gdañsk Lwowska 260|2|1
+29|19|Gdañsk Kolonia Orka 176|Gdañsk Wilgi 110|1|3
+56|11|Gdynia Mariana Buczka 400|Gdynia Kalinowa 88|4|2
+26|10|Gdañsk Zygmunta Augusta 240|GdaÅ„sk Wawelska 65|1|0
+11|10|Sopot Dobrzyñskich 55|Gdañsk Promienista 83|2|2
+64|19|Gdañsk Kolonia Orka 176|GdaÅ„sk £ostowicka 81|4|2
+42|11|Gdañsk Dêbinki 35|Gdañsk Horacego 147|2|1
+30|18|Gdañsk Grzegorza Fitelberga 280|Gdañsk ul.a 212|3|2
+66|15|Gdañsk Alfonsa Flisykowskiego 7|Gdañsk Stajenna 250|3|2
+10|10|Gdañsk Benzynowa 115|Gdañsk Romana i Apolonii Ogryczaków 281|4|2
+98|13|Gdynia Powstania Koœciuszkowskiego 178|Gdañsk Stajenna 250|4|2
+88|18|Gdañsk Leonida Teligi 217|Sopot Ikara 113|4|2
+46|14|Gdañsk Miechuciñska 54|Gdañsk Dêbinki 35|4|3
+95|13|Gdañsk £u¿ycka 194|Gdañsk Szalupowa 49|4|2
+80|13|Gdañsk Wspólna 386|Gdañsk Kolonia Orka 176|3|1
+35|15|GdaÅ„sk £ostowicka 81|GdaÅ„sk Szybowcowa 143|3|1
+69|19|Gdañsk Sobótki 342|Gdañsk Romana i Apolonii Ogryczaków 281|2|0
+78|10|Gdañsk Gêsia 177|Gdynia Genera³a Bora-Komorowskiego 364|1|3
+16|18|Gdañsk Tarniny 256|Gdañsk Zamkniêta 340|2|1
+45|12|Gdañsk Achillesa 368|Gdañsk Daniela Chodowieckiego 124|1|1
+82|20|Gdañsk GoŸdzikowa 209|Gdynia Boles³awa Prusa 233|2|0
+89|12|GdaÅ„sk Filaretów 274|Gdañsk Rodzinna 300|2|3
+28|20|Gdañsk Maciejkowa 223|Gdañsk Cyprysowa 286|4|0
+47|11|Gdynia Pañska 160|Gdañsk K¹towa 288|4|1
+67|18|Gdañsk Stajenna 250|GdaÅ„sk Zielna 367|3|1
+18|10|Gdañsk ¯abia 375|Gdañsk Wspólna 386|3|2
+74|16|Gdañsk Kolonia Orka 176|Gdañsk Leonida Teligi 217|3|3
+12|15|Gdañsk Achillesa 368|Gdañsk Jeziorowa 115|2|3
+57|12|Gdañsk Wspólna 386|Gdañsk Wilgi 110|4|2
+83|18|Gdañsk Zygmunta Rumla 81|Gdañsk Wspólna 386|1|2
+47|13|Gdañsk Che³miñska 86|Gdañsk Turystyczna 180|1|2
+64|13|Gdañsk Wawelska 214|Gdañsk Lwowska 260|3|0
+20|19|Sopot Mostowa 55|Gdañsk Zygmunta Rumla 81|3|1
+46|17|Gdañsk Kolonia Mysia 96|Gdañsk Wilhelma Stryjewskiego 354|1|0
+75|16|Gdynia Kalinowa 88|Gdañsk Wilgi 110|4|2
+78|12|GdaÅ„sk £ostowicka 81|Sopot Konstantego Ildefonsa Ga³czyñskiego 58|2|3
+15|10|Gdañsk Choczewska 3|Gdañsk Zygmunta Rumla 81|3|1
+59|10|Gdañsk Wawelska 214|Gdañsk U³añska 376|4|2
+83|11|Gdañsk Wilgi 110|Gdañsk Che³miñska 86|2|1
+15|10|Gdañsk Bohaterów Getta Warszawskiego 32|Gdañsk Benzynowa 115|2|1
+12|14|Gdañsk M³odzie¿y Polskiej 261|Gdañsk Fundacyjna 160|4|2
+75|11|Gdañsk Che³miñska 86|Gdynia Tadeusza Browicza 360|2|3
+27|10|Gdañsk Edmunda Biernackiego 262|Gdañsk Zielony Trójk¹t 378|3|0
+15|12|Sopot Planetarna 397|Gdañsk M³odzie¿y Polskiej 261|2|2
+81|20|Gdañsk Fundacyjna 160|Gdañsk M³odzie¿y Polskiej 261|1|2
+68|19|Sopot Planetarna 397|Gdañsk Che³miñska 86|2|3
+89|18|Gdañsk Miechuciñska 54|Gdañsk Cyprysowa 286|1|1
+54|16|GdaÅ„sk Internetowa 292|Sopot Na Stoku 95|3|3
+48|20|Sopot Ikara 113|Gdañsk Tarniny 256|1|0
+46|18|Gdañsk Stajenna 250|Gdañsk Kartuska 330|4|0
+50|11|Gdañsk Rybaki Górne 271|Gdañsk Zielony Trójk¹t 378|4|1
+40|16|Gdynia Mariana Buczka 400|Sopot aleja Rzeczypospolitej 24|1|0
+39|15|Gdañsk Benzynowa 115|Gdañsk Gêsia 177|4|3
+13|19|Gdañsk Rybaki Górne 271|Sopot Mostowa 55|2|0
+71|12|Gdañsk K¹towa 94|Gdañsk Po Schodkach 302|1|0
+13|19|Sopot Ikara 113|Gdynia Boles³awa Prusa 233|4|3
+10|12|Gdynia Powstania Koœciuszkowskiego 178|Gdynia Kalinowa 88|2|2
+98|15|Gdynia Kalinowa 88|Gdañsk M³odzie¿y Polskiej 261|4|1
+97|16|Gdañsk Tarniny 256|Gdañsk Kartuska 330|3|2
+80|16|Gdañsk ¯abia 375|Gdañsk Kolonia Orka 176|2|2
+23|12|Gdañsk Dêbinki 35|Gdañsk M³odzie¿y Polskiej 261|4|2
+76|12|Sopot Jana Wojnarskiego 80|Gdañsk U³añska 376|4|0
+63|14|Gdañsk Szalupowa 49|Gdañsk Horacego 147|2|1
+50|18|Gdañsk Stajenna 250|Sopot Na Stoku 95|2|2
+59|16|Sopot Mostowa 55|Sopot Konstantego Ildefonsa Ga³czyñskiego 58|4|0
+33|10|Gdañsk GoŸdzikowa 209|Gdañsk Zygmunta Augusta 240|4|2
+43|14|Gdañsk Miechuciñska 54|Gdañsk Po Schodkach 302|3|1
+48|10|Gdañsk GoŸdzikowa 209|Gdynia Powstania Koœciuszkowskiego 178|4|1
+72|14|GdaÅ„sk Filaretów 274|Gdañsk Jana Heweliusza 73|1|1
+27|17|Gdañsk Wspólna 386|Gdañsk Daniela Chodowieckiego 124|1|3
+94|16|Gdañsk Pocztyiej 170|Gdañsk Dêbinki 35|4|2
+50|17|Gdañsk Horacego 147|Gdañsk Alfonsa Flisykowskiego 7|3|3
+93|10|Gdañsk Sobótki 342|Gdañsk Cyprysowa 286|4|0
+12|13|Gdañsk Dêbinki 35|Gdañsk Achillesa 368|2|0
+98|19|Gdañsk Kolonia Mysia 96|Gdañsk Mot³awska 22|3|1
+51|19|Gdañsk Kolonia Mysia 96|Sopot Mostowa 55|4|3
+70|18|Gdynia Powstania Koœciuszkowskiego 178|Gdañsk Zygmunta Rumla 81|3|3
+33|14|Gdañsk Benzynowa 115|Gdañsk Ignacego Kurzyñskiego 310|3|1
+46|14|Gdañsk Matemblewska 203|Gdañsk Miko³aja Dzia³yñskiego 4|2|2
+17|16|Sopot Planetarna 397|Gdañsk Grobla II 159|2|2
+64|10|Gdañsk K¹towa 94|Gdynia Dolne M³yny 73|1|2
+77|17|Gdañsk Szalupowa 49|Gdañsk Kartuska 330|2|1
+22|10|Gdañsk Horacego 147|Gdañsk Fundacyjna 160|4|0
+28|20|Gdañsk Straszyñska 349|Gdañsk K¹towa 288|3|0
+32|10|Gdañsk Gêsia 177|Gdañsk Zygmunta Rumla 81|4|1
+91|14|Gdañsk Sobótki 342|GdaÅ„sk Zielna 367|1|3
+14|18|Gdynia Mariana Buczka 400|Gdañsk Z³ota 299|3|3
+16|15|Gdynia Boles³awa Prusa 233|GdaÅ„sk £ostowicka 81|4|1
+92|12|Gdañsk Alfonsa Flisykowskiego 7|Gdynia Genera³a Bora-Komorowskiego 364|1|2
+54|18|Gdañsk Po Schodkach 302|Gdañsk Cyprysowa 286|2|0
+95|18|Gdañsk Konrada Wallenroda 123|Gdañsk Konrada Wallenroda 123|3|0
+65|10|Gdañsk Nowatorów 72|Gdañsk Antoniego Dobrowolskiego 231|3|0
+36|14|GdaÅ„sk Floriana Ceynowy 98|Gdañsk Edmunda Biernackiego 262|1|1
+80|13|Gdañsk Konrada Wallenroda 123|Gdañsk Stajenna 250|2|2
+84|19|Gdañsk Benzynowa 115|Gdañsk Szalupowa 49|1|0
+83|16|Gdañsk Stanis³awa So³dka 39|Gdañsk Zygmunta Rumla 81|4|2
+45|17|Gdañsk Fundacyjna 160|Sopot Jana Wojnarskiego 80|4|3
+41|15|Gdañsk Promienista 83|Gdañsk Szalupowa 49|3|1
+16|16|Gdañsk S³owiañska 202|Gdañsk Maciejkowa 223|2|0
+14|13|GdaÅ„sk Internetowa 292|Gdañsk Matemblewska 203|4|3
+99|12|Sopot Dobrzyñskich 55|Gdañsk K¹towa 288|2|1
+63|14|Gdañsk Wilgi 110|Gdañsk Lwowska 260|2|1
+29|19|Gdañsk Kolonia Orka 176|Gdañsk Wilgi 110|1|3
+56|11|Gdynia Mariana Buczka 400|Gdynia Kalinowa 88|4|2
+26|10|Gdañsk Zygmunta Augusta 240|GdaÅ„sk Wawelska 65|1|0
+11|10|Sopot Dobrzyñskich 55|Gdañsk Promienista 83|2|2
+64|19|Gdañsk Kolonia Orka 176|GdaÅ„sk £ostowicka 81|4|2
+42|11|Gdañsk Dêbinki 35|Gdañsk Horacego 147|2|1
+30|18|Gdañsk Grzegorza Fitelberga 280|Gdañsk ul.a 212|3|2
+66|15|Gdañsk Alfonsa Flisykowskiego 7|Gdañsk Stajenna 250|3|2
+10|10|Gdañsk Benzynowa 115|Gdañsk Romana i Apolonii Ogryczaków 281|4|2
+98|13|Gdynia Powstania Koœciuszkowskiego 178|Gdañsk Stajenna 250|4|2
+88|18|Gdañsk Leonida Teligi 217|Sopot Ikara 113|4|2
+46|14|Gdañsk Miechuciñska 54|Gdañsk Dêbinki 35|4|3
+95|13|Gdañsk £u¿ycka 194|Gdañsk Szalupowa 49|4|2
+80|13|Gdañsk Wspólna 386|Gdañsk Kolonia Orka 176|3|1
+35|15|GdaÅ„sk £ostowicka 81|GdaÅ„sk Szybowcowa 143|3|1
+69|19|Gdañsk Sobótki 342|Gdañsk Romana i Apolonii Ogryczaków 281|2|0
+78|10|Gdañsk Gêsia 177|Gdynia Genera³a Bora-Komorowskiego 364|1|3
+16|18|Gdañsk Tarniny 256|Gdañsk Zamkniêta 340|2|1
+45|12|Gdañsk Achillesa 368|Gdañsk Daniela Chodowieckiego 124|1|1
+82|20|Gdañsk GoŸdzikowa 209|Gdynia Boles³awa Prusa 233|2|0
+89|12|GdaÅ„sk Filaretów 274|Gdañsk Rodzinna 300|2|3
+28|20|Gdañsk Maciejkowa 223|Gdañsk Cyprysowa 286|4|0
+47|11|Gdynia Pañska 160|Gdañsk K¹towa 288|4|1
+67|18|Gdañsk Stajenna 250|GdaÅ„sk Zielna 367|3|1
+18|10|Gdañsk ¯abia 375|Gdañsk Wspólna 386|3|2
+74|16|Gdañsk Kolonia Orka 176|Gdañsk Leonida Teligi 217|3|3
+12|15|Gdañsk Achillesa 368|Gdañsk Jeziorowa 115|2|3
+57|12|Gdañsk Wspólna 386|Gdañsk Wilgi 110|4|2
+83|18|Gdañsk Zygmunta Rumla 81|Gdañsk Wspólna 386|1|2
+47|13|Gdañsk Che³miñska 86|Gdañsk Turystyczna 180|1|2
+64|13|Gdañsk Wawelska 214|Gdañsk Lwowska 260|3|0
+20|19|Sopot Mostowa 55|Gdañsk Zygmunta Rumla 81|3|1
+46|17|Gdañsk Kolonia Mysia 96|Gdañsk Wilhelma Stryjewskiego 354|1|0
+75|16|Gdynia Kalinowa 88|Gdañsk Wilgi 110|4|2
+78|12|GdaÅ„sk £ostowicka 81|Sopot Konstantego Ildefonsa Ga³czyñskiego 58|2|3
+15|10|Gdañsk Choczewska 3|Gdañsk Zygmunta Rumla 81|3|1
+59|10|Gdañsk Wawelska 214|Gdañsk U³añska 376|4|2
+83|11|Gdañsk Wilgi 110|Gdañsk Che³miñska 86|2|1
+15|10|Gdañsk Bohaterów Getta Warszawskiego 32|Gdañsk Benzynowa 115|2|1
+12|14|Gdañsk M³odzie¿y Polskiej 261|Gdañsk Fundacyjna 160|4|2
+75|11|Gdañsk Che³miñska 86|Gdynia Tadeusza Browicza 360|2|3
+27|10|Gdañsk Edmunda Biernackiego 262|Gdañsk Zielony Trójk¹t 378|3|0
+15|12|Sopot Planetarna 397|Gdañsk M³odzie¿y Polskiej 261|2|2
+81|20|Gdañsk Fundacyjna 160|Gdañsk M³odzie¿y Polskiej 261|1|2
+68|19|Sopot Planetarna 397|Gdañsk Che³miñska 86|2|3
+89|18|Gdañsk Miechuciñska 54|Gdañsk Cyprysowa 286|1|1
+54|16|GdaÅ„sk Internetowa 292|Sopot Na Stoku 95|3|3
+48|20|Sopot Ikara 113|Gdañsk Tarniny 256|1|0
+46|18|Gdañsk Stajenna 250|Gdañsk Kartuska 330|4|0
+50|11|Gdañsk Rybaki Górne 271|Gdañsk Zielony Trójk¹t 378|4|1
+40|16|Gdynia Mariana Buczka 400|Sopot aleja Rzeczypospolitej 24|1|0
+39|15|Gdañsk Benzynowa 115|Gdañsk Gêsia 177|4|3
+13|19|Gdañsk Rybaki Górne 271|Sopot Mostowa 55|2|0
+71|12|Gdañsk K¹towa 94|Gdañsk Po Schodkach 302|1|0
+13|19|Sopot Ikara 113|Gdynia Boles³awa Prusa 233|4|3
+10|12|Gdynia Powstania Koœciuszkowskiego 178|Gdynia Kalinowa 88|2|2
+98|15|Gdynia Kalinowa 88|Gdañsk M³odzie¿y Polskiej 261|4|1
+97|16|Gdañsk Tarniny 256|Gdañsk Kartuska 330|3|2
+80|16|Gdañsk ¯abia 375|Gdañsk Kolonia Orka 176|2|2
+63|15|Sopot Odrzañska 242|Gdañsk Bracka 337|1|0
+10|12|Gdynia Ludwika Mieros³awskiego 170|GdaÅ„sk Floriana Ceynowy 98|1|0
+77|11|Sopot Astronomów 391|Gdañsk Plac Jerzego Ko³odziejskiego 192|2|2
+92|13|Gdañsk Grzegorza Fitelberga 280|Gdynia Wac³awa Balcerskiego 60|2|1
+52|17|Gdañsk U³añska 376|Sopot Planetarna 397|4|3
+17|16|Gdañsk Sanocka 41|Sopot Ikara 113|2|1
+37|19|GdaÅ„sk Floriana Ceynowy 98|GdaÅ„sk Bielañska 114|4|3
+73|11|GdaÅ„sk Zalesie 193|Gdynia Dolne M³yny 73|3|3
+41|18|Gdynia Genera³a Bora-Komorowskiego 364|Gdynia Plutona 74|1|1
+60|10|Sopot Juliusza S³owackiego 231|GdaÅ„sk Internetowa 292|4|3
+14|14|Gdañsk Bohaterów Getta Warszawskiego 32|Sopot Na Stoku 95|3|1
+66|20|Gdynia Ludwika Mieros³awskiego 170|Gdañsk Z³ota 299|1|2
+41|12|Gdañsk Zamkniêta 340|Gdañsk Matemblewska 203|4|0
+43|11|Gdañsk £u¿ycka 194|Gdañsk Lwowska 260|1|3
+18|15|Gdañsk Winnicka 331|Gdañsk Reduta Wilk 183|3|2
+27|20|Gdañsk œwiêtej Barbary 341|Gdañsk Jana Kozietulskiego 44|3|0
+25|11|Gdañsk Czereœniowa 97|Sopot Odrzañska 242|1|2
+43|14|Gdañsk Ku Ujœciu 109|Gdynia Dolne M³yny 73|3|2
+13|10|Gdañsk Ludwika Zamenhofa 347|Gdañsk Kliniczna 372|2|2
+14|13|GdaÅ„sk Przyjazna 307|Gdañsk Mot³awska 22|1|0
+34|13|Gdynia Pañska 160|Gdynia Przyjazna 238|3|2
+96|16|Gdañsk Kartuska 330|Gdañsk Straszyñska 349|1|3
+83|14|Gdañsk Macierzankowa 246|Sopot Saperów 212|3|2
+47|14|Gdañsk Szkocka 30|GdaÅ„sk Zalesie 193|1|2
+32|19|Gdañsk Ku Ujœciu 109|Gdañsk Mot³awska 22|2|3
+64|17|Gdañsk Tarniny 256|Gdañsk Sobótki 342|2|1
+65|15|Sopot Stara Stocznia 262|Gdañsk Benzynowa 115|4|1
+28|19|Gdañsk Nad Stawem 216|Gdañsk Leœna 102|1|3
+68|10|Gdañsk Elizy Orzeszkowej 376|Gdañsk I Brygady 372|1|1
+28|15|Gdañsk Poziomkowa 266|Gdañsk £ozy 378|2|0
+56|10|Gdañsk Macierzankowa 246|Gdañsk Straszyñska 349|2|2
+96|12|Gdañsk Kuœnierska 306|Gdañsk Antoniego Dobrowolskiego 231|3|3
+68|15|Gdañsk Pi³karska 63|Sopot Mostowa 55|2|0
+13|16|Gdañsk U³añska 376|Gdañsk œwiêtej Barbary 341|3|2
+25|14|GdaÅ„sk Stogi 329|Gdynia Genera³a Bora-Komorowskiego 364|2|0
+34|16|Gdañsk Piesza 397|Gdañsk St¹giewna 344|4|0
+72|15|Gdañsk Reduta Wilk 183|Gdañsk Straszyñska 349|4|2
+27|13|Gdañsk W³adys³awa ¯eleñskiego 116|Gdañsk Sienkiewicza 99|3|0
+44|13|Gdañsk Ja³mu¿nicza 83|GdaÅ„sk Stogi 329|4|0
+73|13|Gdañsk Zgody I 287|Gdañsk ul.a 212|2|1
+84|11|Gdañsk £u¿ycka 194|GdaÅ„sk Ksiêdza Jana Majdera 368|1|0
+62|11|Gdañsk Pocztyiej 170|Gdañsk W³adys³awa ¯eleñskiego 116|4|1
+67|10|Gdañsk Horacego 147|Sopot Reduta Wyskok 304|1|2
+12|13|Gdañsk Jeziorowa 115|Gdañsk Nad Stawem 216|2|0
+99|18|GdaÅ„sk Filaretów 274|Gdañsk Bohaterów Getta Warszawskiego 32|1|1
+81|11|Gdañsk Choczewska 3|Gdañsk Jeziorowa 115|2|2
+57|16|Gdañsk Daniela Chodowieckiego 124|Gdañsk St¹giewna 344|1|1
+20|11|Gdañsk Nowatorów 72|Gdañsk Wawelska 214|3|1
+80|12|Gdañsk Sobótki 342|Gdañsk Zygmunta Augusta 240|1|2
+37|20|Gdañsk Kartuska 330|Gdañsk Ku Ujœciu 109|2|3
+37|13|Gdañsk Przegaliñska 222|Gdañsk Che³miñska 86|4|0
+91|15|Sopot Saperów 212|Gdañsk Sobótki 342|2|2
+59|19|Gdañsk Bohaterów Getta Warszawskiego 32|Sopot majora Mieczys³awa S³abego 385|2|2
+33|10|Gdañsk Cyprysowa 286|GdaÅ„sk Bielañska 114|2|1
+66|20|Gdañsk Plac Jerzego Ko³odziejskiego 192|Gdañsk Z³ota 299|2|3
+65|17|Gdañsk Miko³aja Dzia³yñskiego 4|Gdañsk S³owiañska 202|4|2
+10|11|Gdañsk Mewy 31|Sopot Stara Stocznia 262|1|2
+78|12|Gdañsk Ró¿ana 41|Gdynia Brzegi 193|4|2
+56|11|Gdañsk Kuœnierska 306|Gdañsk Antoniego Dobrowolskiego 231|1|0
+40|11|Gdañsk Pi³karska 63|Gdañsk Betoniarzy 116|2|1
+31|13|Gdañsk Jeziorowa 115|Gdañsk ul.a 212|3|1
+26|14|Gdañsk Franciszka Bellinga 145|GdaÅ„sk Wawelska 65|3|1
+64|20|Gdynia Goplañska 149|Gdañsk £u¿ycka 194|1|1
+90|14|Gdynia majora Mieczys³awa S³abego 332|Gdañsk Na Piaskach 327|1|1
+51|12|Gdañsk Christiana Andersena 352|Sopot Konrada Wallenroda 88|4|0
+36|12|Sopot Konstantego Cio³kowskiego 72|Gdañsk Kartuska 330|2|0
+70|14|Gdañsk Ignacego Kurzyñskiego 310|Gdañsk Podchor¹¿ych 94|3|3
+45|20|Gdañsk U³añska 376|Gdañsk Cicha 133|1|2
+92|16|GdaÅ„sk Ksiêdza Jana Majdera 368|Gdañsk Bytowska 171|3|2
+38|19|Sopot Planetarna 397|Gdañsk Piotrkowska 234|2|1
+11|11|Sopot Mostowa 55|Sopot Astronomów 391|2|3
+75|12|Gdañsk Franciszka Bellinga 145|Gdañsk Zygmunta Augusta 240|1|0
+81|19|Gdañsk £ozy 378|Gdañsk Achillesa 368|1|3
+24|16|Gdynia Goplañska 149|Gdañsk Gêsia 177|2|0
+18|10|Gdañsk St¹giewna 344|Sopot Konrada Wallenroda 88|4|0
+62|19|Gdynia Goplañska 149|Gdañsk Urwista 310|1|2
+21|17|Gdañsk Matemblewska 203|Sopot majora Mieczys³awa S³abego 385|3|1
+79|20|Gdañsk Ró¿ana 41|Gdañsk Franciszka Bellinga 145|3|3
+10|15|Gdañsk Zygmunta Augusta 240|Gdynia Mariana Buczka 400|2|2
+24|10|Gdynia Kalinowa 88|Gdynia Pañska 160|1|0
+45|10|Gdañsk Kaczeñce 151|Gdañsk ul.a 212|2|1
+20|10|Gdañsk Witolda Grabowskiego 18|GdaÅ„sk Filaretów 274|2|0
+12|10|Gdañsk St¹giewna 344|GdaÅ„sk Wczasy 363|3|0
+90|14|Gdynia Robotnicza 285|Gdañsk Szynszylowa 180|1|0
+69|19|Gdañsk Bytowska 171|Gdynia Dolne M³yny 73|1|1
+75|14|Gdañsk K¹towa 288|Gdañsk Witolda Grabowskiego 18|2|3
+66|10|Gdynia Orla 294|Gdañsk Zielony Trójk¹t 378|4|0
+61|16|Gdañsk K¹towa 94|Gdañsk Pocztyiej 170|2|0
+87|10|GdaÅ„sk Ksiêdza Jana Majdera 368|Gdañsk Dêbinki 35|4|0
+50|15|Gdañsk Danusi 133|Gdañsk Po Schodkach 302|4|3
+46|20|Sopot Jana Wojnarskiego 80|Gdañsk Obywatelska 374|3|0
+91|14|Gdynia Kalinowa 88|Gdañsk Jacka Malczewskiego 197|1|2
+98|20|GdaÅ„sk Wawelska 65|Gdañsk Pocztyiej 170|3|0
+53|16|GdaÅ„sk Bielañska 114|Gdañsk Zygmunta Rumla 81|4|3
+31|18|Sopot Niepo³omicka 86|Gdañsk Wiêcierze 24|3|0
+55|19|Gdañsk Jacka Malczewskiego 197|Sopot Planetarna 397|2|0
+37|13|Gdañsk Leœna 102|Gdañsk Batalionów Ch³opskich 179|2|2
+21|11|Gdañsk Nowatorów 72|Gdañsk Lipcowa 312|3|3
+10|11|Gdañsk Wilhelma Stryjewskiego 354|GdaÅ„sk Bielañska 114|1|1
+93|17|Gdañsk U³añska 376|Gdañsk Tarniny 256|1|0
+65|13|Gdañsk Bytowska 171|Gdynia Kalinowa 88|2|1
