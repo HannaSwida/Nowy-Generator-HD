@@ -15,4 +15,4 @@ PrzebywanieWAreszcie = namedtuple("PrzebywanieWAreszcie",
     "id czas czas_interwencji powod dane_osadzonego funkcjonariusz komisariat")
 
 Patrole = namedtuple("Patrole",
-     "numer_porzadkowy dlugosc_trasy poczatek_trasy koniec_trasy czas_patrolu ilosc_problemow")
+     "numer_porzadkowy dlugosc_trasy poczatek_trasy koniec_trasy czas_patrolu ilosc_problemow dataPatrolu")

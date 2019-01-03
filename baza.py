@@ -19,7 +19,7 @@ class Baza(object):
         self.wystawione_mandaty = []
         self.aresztowania = []
         self.patrol = []
-        self._id = 0
+        self._id = {}
 
     def dump(self, target_directory):
         try:
@@ -107,12 +107,14 @@ class Baza(object):
             lambda x: x.poczatek_trasy.miasto+' '+x.poczatek_trasy.ulica+' '+str(x.poczatek_trasy.numer),
             lambda x: x.koniec_trasy.miasto+' '+x.koniec_trasy.ulica+' '+str(x.koniec_trasy.numer),
             lambda x: x.czas_patrolu,
-            lambda x: x.ilosc_problemow
+            lambda x: x.ilosc_problemow,
+            lambda x: x.dataPatrolu
         ])
 
-    def next_id(self):
-        self._id += 1
-        return self._id
+    def next_id(self, scope="default"):
+        if not scope in self._id: self._id[scope] = 0
+        self._id[scope] += 1
+        return self._id[scope]
 
     def generate(self, ilosc_obiektow, start_date, end_date):
         def generator_adresu():
@@ -128,7 +130,7 @@ class Baza(object):
                     osoba.generator_emaili()
 
             ):
-                o = Osoba(self.next_id(), imie, nazwisko, pesel, telefon, email)
+                o = Osoba(self.next_id(scope="osoby"), imie, nazwisko, pesel, telefon, email)
                 self.osoby.append(o)
                 yield o
 
@@ -148,7 +150,7 @@ class Baza(object):
                 adres.generator_ulic(),
                 adres.numer_budynku()
         ):
-            self.adresy.append(Adres(self.next_id(), kraj, miasto, ulica, nr))
+            self.adresy.append(Adres(self.next_id(scope="adresy"), kraj, miasto, ulica, nr))
             i += 1
             if i > ilosc_obiektow:
                 break
@@ -159,7 +161,7 @@ class Baza(object):
             komisariaty.generator_nazwy(),
             generator_adresu()
         ):
-            self.komisariaty.append(Komisariat(self.next_id(), nazwa, adresy))
+            self.komisariaty.append(Komisariat(self.next_id(scope="komisariaty"), nazwa, adresy))
             i += 1
             if i > ilosc_obiektow:
                 break
@@ -171,7 +173,7 @@ class Baza(object):
             generator_osob(),
             generator_komisariatow()
         ):
-            self.funkcjonariusze.append(Funkcjonariusz(self.next_id(),
+            self.funkcjonariusze.append(Funkcjonariusz(self.next_id(scope="funkcjonariusze"),
                                                    stopien, dane_osoby, miejsce_przydzialu))
             i += 1
             if i > ilosc_obiektow:
@@ -186,7 +188,7 @@ class Baza(object):
             generator_adresu(),
             generator_funkcjonariuszy()
         ):
-            self.wystawione_mandaty.append(WystawienieMandatu(self.next_id(), kwota,
+            self.wystawione_mandaty.append(WystawienieMandatu(self.next_id(scope="wystawione_mandaty"), kwota,
                                                        powod, czas, osoba_legitymowana,
                                                        miejsce, _funkcjonariusz))
             i += 1
@@ -203,7 +205,7 @@ class Baza(object):
             generator_funkcjonariuszy(),
             generator_komisariatow()
             ):
-            self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(), czas, czas_interwencji,
+            self.aresztowania.append(PrzebywanieWAreszcie(self.next_id(scope="aresztowania"), czas, czas_interwencji,
                                                           powod, dane_osadzonego, _funkcjonariusz,
                                                           _komisariat))
             i += 1
@@ -212,15 +214,16 @@ class Baza(object):
 
         # Numer porządkowy samochodu funkcjonariuszy|Długość trasy patrolu|Początek trasy|Koniec trasy|Czas patrolu|Ilość problemów podczas patrolu
         i = 0
-        for numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow in zip(
+        for numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow, dataPatrolu in zip(
                 patrole.get_car_number(),
                 patrole.get_patrol_length(),
                 generator_adresu(),
                 generator_adresu(),
                 patrole.get_patrol_time(),
-                patrole.get_patrol_issues()
+                patrole.get_patrol_issues(),
+                patrole.get_data_patrolu()
         ):
-            self.patrol.append(Patrole(numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow))
+            self.patrol.append(Patrole(numer_porzadkowy, dlugosc_trasy, poczatek_trasy, koniec_trasy, czas_patrolu, ilosc_problemow, dataPatrolu))
             i += 1
             if i > ilosc_obiektow:
                 break
