@@ -17,12 +17,12 @@ def generate_sql(f, table_name, data_type, source):
                 return str(x)
 
         item = map(escape, item)
-        f.write("INSERT INTO {} ({}) VALUES ({});\n".format(table_name, data_type, ", ".join(item)))
+        f.write("INSERT INTO {} ({}) VALUES ({});\n".format(table_name, data_type, ", ".join(item)).encode("windows-1250"))
 
 
 def generate_sql_osoba(f, table_name, source):
     for item in source():
-        f.write("INSERT INTO {} VALUES ({});\n".format(table_name, item))  # dzieli mi na litery nie slowa, fix
+        f.write("INSERT INTO {} VALUES ({});\n".format(table_name, item).encode("windows-1250"))  # dzieli mi na litery nie slowa, fix
 
 
 def generate_csv(f, source):
@@ -53,6 +53,7 @@ def main():
     baza.dump("t1")
     baza.generate(100, now - YEAR, now)
     baza.dump("t2")
+
 
     #def generuj_adresy():
     #    # 	Id INTEGER IDENTITY(1,1) PRIMARY KEY,

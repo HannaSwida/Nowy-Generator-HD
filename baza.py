@@ -28,7 +28,7 @@ class Baza(object):
             pass
 
         def export(table, lst, columns):
-            with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='') as f:
+            with open(os.path.join(target_directory, "{}.bulk".format(table)), "w", newline='', encoding="latin-1") as f:
                 writer = csv.writer(f, delimiter='|')
                 for i in lst:
                     row = []
