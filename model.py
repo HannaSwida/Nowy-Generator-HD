@@ -6,7 +6,7 @@ Adres = namedtuple("Adres", "id kraj miasto ulica numer")
 
 Komisariat = namedtuple("Komisariat", "id nazwa adres")
 
-Funkcjonariusz = namedtuple("Funkjonariusz", "id stopien dane_osoby miejsce_przydzialu")
+Funkcjonariusz = namedtuple("Funkcjonariusz", "id stopien dane_osoby miejsce_przydzialu")
 
 WystawienieMandatu = namedtuple("WystawienieMandatu",
     "id kwota powod czas osoba_legitymowana miejsce funkcjonariusz")
